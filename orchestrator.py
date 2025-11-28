@@ -26,6 +26,120 @@ class AdvisorOrchestrator:
         # 3. Synthesis
         print("3. Synthesizing Report...")
         report = self._synthesize_report(claims, context)
+        print("   Report generated.")
+        
+        return report
+
+    def _extract_claims(self, text: str) -> List[Dict]:
+        """
+        Uses LLM to parse text into structured claims with strict schema.
+        Temperature: 0.2 for consistency.
+        """
+        system_prompt = """
+        You are an expert political analyst. Extract specific, testable claims from Czech political texts.
+        
+        For each claim, identify:
+        - id: Unique ID (C1, C2, C3...)
+        - text: Exact claim text in Czech
+        - policy_area: One of: pensions, healthcare, education, culture, defense, infrastructure, 
+                       social_services, taxation, environment, agriculture, justice, public_admin, other
+        - claim_type: One of:
+            * spending_increase_absolute (e.g., "Zvýšíme důchody o 2000 Kč")
+            * spending_increase_percent (e.g., "Zvýšíme výdaje o 10%")
+            * spending_cut_absolute
+            * spending_cut_percent
+            * tax_rate_increase (e.g., "Zvýšíme DPH na 25%")
+            * tax_rate_decrease
+            * tax_base_change (e.g., "Zavedeme novou daň")
+            * regulatory_change
+            * general_policy
+        - target_entity: Specific entity (e.g., "state_pensions", "VAT", "culture_subsidies")
+        - value_czk: Amount in CZK if mentioned (null if not)
+        - value_percent: Percentage if mentioned (null if not)
+        - confidence: 0.0-1.0 (how confident you are in the extraction)
+        
+        Return ONLY valid JSON matching this schema. No markdown, no explanations.
+        
+        Example output:
+        {
+          "claims": [
+            {
+              "id": "C1",
+              "text": "Zvýšíme důchody o 2000 Kč",
+              "policy_area": "pensions",
+              "claim_type": "spending_increase_absolute",
+              "target_entity": "state_pensions",
+              "value_czk": 2000,
+              "value_percent": null,
+              "confidence": 1.0
+            }
+          ]
+        }
+        """
+        
+        response = self.llm.generate_response(
+            f"Extract claims from this text:\n\n{text}", 
+            system_prompt,
+            temperature=0.2  # Low temperature for consistency
+        )
+        
+        try:
+            # Clean markdown code blocks if present
+            clean_json = response.replace("```json", "").replace("```", "").strip()
+            parsed = json.loads(clean_json)
+            
+            # Handle both {"claims": [...]} and direct list formats
+            if isinstance(parsed, dict) and "claims" in parsed:
+                claims_list = parsed["claims"]
+            elif isinstance(parsed, list):
+                claims_list = parsed
+            else:
+                claims_list = [parsed]
+            
+            # Validate and convert to old format for compatibility
+            validated_claims = []
+            for claim in claims_list:
+                if isinstance(claim, dict):
+                    # Keep new fields but also add old 'target' field for compatibility
+                    claim['target'] = claim.get('target_entity', 'unknown')
+                    claim['type'] = claim.get('claim_type', 'general_policy')
+                    validated_claims.append(claim)
+            
+            return validated_claims if validated_claims else [{
+                "id": "C1",
+                "text": text,
+                "policy_area": "other",
+                "claim_type": "general_policy",
+                "target_entity": "unknown",
+                "target": "unknown",
+                "type": "general_policy",
+                "value_czk": None,
+                "value_percent": None,
+                "confidence": 0.5
+            }]
+            
+        except Exception as e:
+            print(f"Error parsing LLM extraction: {e}")
+            print(f"Raw response: {response[:500]}")
+            # Fallback
+            return [{
+                "id": "C1",
+                "text": text,
+                "policy_area": "other",
+                "claim_type": "general_policy",
+                "target_entity": "unknown",
+                "target": "unknown",
+                "type": "general_policy",
+                "value_czk": None,
+                "value_percent": None,
+                "confidence": 0.5
+            }]
+
+    def _retrieve_context(self, claims: List[Dict]) -> Dict[str, Any]:
+        """
+        Calls tools based on claims.
+        """
+        context = {
             "budget_data": [],
             "legal_context": [],
             "macro_data": {},
