@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:cz:mfcr:monitor:schemas:MonitorFin112SF:v1" xmlns:mon="urn:cz:mfcr:monitor:schemas:MonitorTypes:v1" targetNamespace="urn:cz:mfcr:monitor:schemas:MonitorFin112SF:v1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1">
+    <xs:import namespace="urn:cz:mfcr:monitor:schemas:MonitorTypes:v1" schemaLocation="monitorTypes.xsd"/>    
+    
+    <xs:element name="Fin112SF">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="PrijmyRozpoctove">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">I. Rozpočtové příjmy</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="Radek">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Paragraf" type="mon:ParagrafRozpoctovaSkladbaType"/>
+                                        <xs:element name="Polozka" type="mon:PolozkaRozpoctovaSkladbaType"/>
+                                        <xs:element name="RozpocetSchvaleny" type="mon:FinancniCastkaType"/>
+                                        <xs:element name="RozpocetPoZmenach" type="mon:FinancniCastkaType"/>
+                                        <xs:element name="Vysledek" type="mon:FinancniCastkaType"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="VydajeRozpoctove">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">II. Rozpočtové výdaje a
+                            financování</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="Radek">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Paragraf" type="mon:ParagrafRozpoctovaSkladbaType"/>
+                                        <xs:element name="Polozka" type="mon:PolozkaRozpoctovaSkladbaType"/>
+                                        <xs:element name="RozpocetSchvaleny" type="mon:FinancniCastkaType"/>
+                                        <xs:element name="RozpocetPoZmenach" type="mon:FinancniCastkaType"/>
+                                        <xs:element name="RozpocetKonecny" type="mon:FinancniCastkaType"/>
+                                        <xs:element name="Vysledek" type="mon:FinancniCastkaType"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="RekapitulacePrijmyVydaje">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Část III. - Rekapitulace příjmů, výdajů, financování a jejich konsolidace</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="Radek">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Polozka" type="mon:PolozkaRozpoctovaSkladbaType"/>
+                                        <xs:element name="RozpocetSchvaleny" type="mon:FinancniCastkaType"/>
+                                        <xs:element name="RozpocetPoZmenach" type="mon:FinancniCastkaType"/>
+                                        <xs:element name="Vysledek" type="mon:FinancniCastkaType"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>                
+                <xs:element name="UctyBankovniStavyAObraty">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">IV. Stavy a obraty na bankovních
+                            účtech</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="Radek">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="RadekCislo" type="mon:RadekCisloType"/>
+                                        <xs:element name="StavPocatecni" type="mon:FinancniCastkaType" minOccurs="0"/>
+                                        <xs:element name="StavKonecObdobi" type="mon:FinancniCastkaType"/>
+                                        <xs:element name="ZmenaStavu" type="mon:FinancniCastkaType" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="TransferyPujckyPoskytnute">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Část IX. - Transfery a půjčky poskytnuté veřejným rozpočtům územní úrovně</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="Radek">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ZnakUcelovy" type="mon:ZnakUcelovyType"/>                                        
+                                        <xs:element name="Polozka" type="mon:PolozkaRozpoctovaSkladbaType"/>
+                                        <xs:element name="PrijemceNuts" type="mon:NutsKodType"/>
+                                        <xs:element name="Vysledek" type="mon:FinancniCastkaType"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

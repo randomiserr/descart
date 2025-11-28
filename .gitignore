@@ -1,0 +1,51 @@
+# .gitignore for Czech Political Advisor
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Data files (large)
+data/budget_2025.csv
+data/vectordb/
+*.csv
+*.json.gz
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (Frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/.env.production.local
+
+# Keep small config files
+!data/codelists/items.json
+!data/macro_real.json
+!data/laws_extracted.json

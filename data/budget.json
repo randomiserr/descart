@@ -1,0 +1,42 @@
+[
+    {
+        "category_code": "395",
+        "category_name": "Obsluha státního dluhu",
+        "amount_czk": 95000000000,
+        "year": 2024,
+        "type": "Expenditure",
+        "source": "Monitor API"
+    },
+    {
+        "category_code": "XXX",
+        "category_name": "Podporované zdroje energie (dotace)",
+        "amount_czk": 27000000000,
+        "year": 2024,
+        "type": "Expenditure",
+        "source": "Monitor API"
+    },
+    {
+        "category_code": "YYY",
+        "category_name": "Důchodové pojištění (výdaje)",
+        "amount_czk": 700000000000,
+        "year": 2024,
+        "type": "Expenditure",
+        "source": "Monitor API"
+    },
+    {
+        "category_code": "DPH",
+        "category_name": "Daň z přidané hodnoty (inkaso)",
+        "amount_czk": 380000000000,
+        "year": 2024,
+        "type": "Revenue",
+        "source": "Monitor API"
+    },
+    {
+        "category_code": "DPPO",
+        "category_name": "Daň z příjmů právnických osob (inkaso)",
+        "amount_czk": 200000000000,
+        "year": 2024,
+        "type": "Revenue",
+        "source": "Monitor API"
+    }
+]

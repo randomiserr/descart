@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="urn:cz:mfcr:monitor:schemas:MonitorFinSZU:v1"
+    xmlns:mon="urn:cz:mfcr:monitor:schemas:MonitorTypes:v1"
+    targetNamespace="urn:cz:mfcr:monitor:schemas:MonitorFinSZU:v1" elementFormDefault="qualified"
+    attributeFormDefault="unqualified" version="1">
+    <xs:import namespace="urn:cz:mfcr:monitor:schemas:MonitorTypes:v1"
+        schemaLocation="monitorTypes.xsd"/>
+
+    <xs:element name="PrehledUveruZapujcek">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="Radek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice>
+                                <xs:element name="PoskytovatelIC" type="mon:OrganizaceICType"/>
+                                <xs:element name="PoskytovatelNerezidentKod" type="mon:NerezidentKodType"/>
+                            </xs:choice>
+                            <xs:element name="PoskytovatelNazev" type="mon:SimpleTextType"/>                                                       
+                            <xs:element name="UverZapujckaNFV" type="mon:UverZapujckaNFVVycetType"/>
+                            <xs:element name="UcelPopis" type="mon:SimpleTextType"/>
+                            <xs:element name="MenaKod" type="mon:MenaType"/>
+                            <xs:element name="UverZapujckaHodnota" type="mon:FinancniCastkaType"/>
+                            <xs:element name="UverZapujckaCerpaniHodnota" type="mon:FinancniCastkaType"/>
+                            <xs:element name="UverZapujckaJistinaSplacena" type="mon:FinancniCastkaType"/>
+                            <xs:element name="UverZapujckaUrokyZaplacene" type="mon:FinancniCastkaType"/>
+                            <xs:element name="SmlouvaDatum" type="mon:DatumType"/>
+                            <xs:element name="SplatnostDatum" type="mon:DatumType"/>
+                            <xs:element name="RuceniZpusob" type="mon:SimpleTextType"/>
+                        </xs:sequence>                        
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

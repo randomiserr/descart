@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="urn:cz:mfcr:monitor:schemas:MonitorTypes:v1"
+    targetNamespace="urn:cz:mfcr:monitor:schemas:MonitorTypes:v1" elementFormDefault="qualified"
+    attributeFormDefault="unqualified" version="1">
+    <xs:complexType name="HlavickaRequestType">
+        <xs:sequence>
+            <xs:element name="OrganizaceIC" type="OrganizaceICType" minOccurs="0"/>
+            <xs:element name="Rok" type="RokType" minOccurs="0"/>
+            <xs:element name="Obdobi" type="ObdobiType" minOccurs="0"/>
+            <xs:element name="Vykaz" type="VykazType"/>
+            <xs:element name="Rad" type="CastkaRadType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="HlavickaResponseType">
+        <xs:sequence>
+            <xs:element name="OrganizaceIC" type="OrganizaceICType" minOccurs="0"/>
+            <xs:element name="Obdobi" type="ObdobiType"/>
+            <xs:element name="Vykaz" type="VykazType"/>
+            <xs:element name="Rad" type="CastkaRadType"  minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="OrganizaceICType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Identifikační číslo (IČ) je číslicový pořadový kód, který slouží k jednoznačné identifikaci ekonomických subjektů. Ekonomickým subjektem je každá právnická osoba a dále fyzické osoby, které mají podle zvláštního předpisu postavení podnikatele.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:maxLength value="8"/>
+                <xs:minLength value="8"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="NerezidentKodType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Identifikační číslo (IČ) je číslicový pořadový kód, který slouží k jednoznačné identifikaci ekonomických subjektů. Ekonomickým subjektem je každá právnická osoba a dále fyzické osoby, které mají podle zvláštního předpisu postavení podnikatele.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:maxLength value="2"/>
+                <xs:minLength value="2"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="ObdobiType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Obecné datum, vycházející z xs:date, které omezuje rozsah hodnot na 1.1.1900 - 31.12.2099 a speciální hodnotu 31.12.9999. Formát rrrr-mm-dd.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="DatumType">
+                <xs:pattern
+                    value="((9){4}\-[1][2]\-[3][1])|((((20|19))\d{2})\-((02\-([0][1-9]|[1-2]\d))|(04|06|09|11)\-(30|[0][1-9]|[1-2]\d)|(01|03|05|07|08|10|12)\-(30|31|[0][1-9]|[1-2]\d)))"
+                />
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="RokType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Obecný rok, který omezuje rozsah hodnot na 1900 - 2099 a speciální hodnotu 9999. Formát rrrr.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="NumberType">
+                <xs:pattern value="((9){4})|((20|19)\d{2})"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="VykazType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Identifikace výkazu, vycházející z xs:token, který omezuje výčtem možných hodnot</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:maxLength value="3"/>
+                <xs:minLength value="3"/>
+                <xs:enumeration value="001">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Rozvaha</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="002">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Výkaz zisku a ztrát</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="003">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Peněžní toky a Vlastní kapitál</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="004">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Příloha</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>                  
+                <xs:enumeration value="005">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Schválení účetní závěrky</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>     
+                <xs:enumeration value="006">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Jiné právnické osoby</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>                  
+                <xs:enumeration value="051">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">FIN 2-12 M</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="052">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">FIN 2-04 U</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="055">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">FIN SPO</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>       
+                <xs:enumeration value="060">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">FIN 1-12 SF</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="080">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Přehled úvěrů, zápůjček a NFV</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>                
+                <xs:enumeration value="090">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">FIN 1-12 OSS a závazné ukazatele</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>                 
+                <xs:enumeration value="100">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Ukazatele</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>           
+                <xs:enumeration value="101">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Monitoring obcí</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>   
+                <xs:enumeration value="201">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Rozvaha - konsolidace</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="202">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Výkaz zisku a ztrát - konsolidace</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>  
+                <xs:enumeration value="204">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Příloha - konsolidace</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>      
+                <xs:enumeration value="205">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Dokumenty - konsolidace</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration> 
+				<xs:enumeration value="301">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Rozvaha Městské části</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="302">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Výkaz zisku a ztrát Městské části</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>                
+                <xs:enumeration value="304">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Příloha Městské části</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>  
+				<xs:enumeration value="351">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">FIN 2-12 M Městské části</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="CastkaRadType">
+        <xs:annotation>
+            <xs:documentation>Řád částky - řád, v jakém jsou vyplněny všechny částky výkazu.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="NumberType">
+                <xs:enumeration value="1">
+                    <xs:annotation>
+                        <xs:documentation>Výkaz je vyplněn v jednotkách</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="1000">
+                    <xs:annotation>
+                        <xs:documentation>Výkaz je vyplněn v tisících</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="1000000">
+                    <xs:annotation>
+                        <xs:documentation>Výkaz je vyplněn v milionech</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>    
+    
+    <xs:complexType name="SouborType">
+        <xs:annotation>
+            <xs:documentation>Binární data souboru kódovaná ve formátu base64</xs:documentation>            
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:base64Binary">
+                <xs:attribute name="souborJmeno" type="xs:string" use="required"/>
+                <xs:attribute name="kodovani" type="xs:string" use="required" />                               
+                <xs:attribute name="kodMIME" type="MIMETypSouboruType" use="required"/>
+                <xs:attribute name="popis" type="xs:string" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="MIMETypSouboruType">
+        <xs:restriction base="xs:string">
+            
+            <xs:enumeration value="application/octet-stream">
+                <xs:annotation>
+                    <xs:documentation>Obecný formát</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>            
+            <xs:enumeration value="application/pdf">
+                <xs:annotation>
+                    <xs:documentation>Dokument PDF (.pdf)</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="text/html">
+                <xs:annotation>
+                    <xs:documentation>Text ve formátu html (.html)</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>         
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="AnoNeType">
+        <xs:simpleContent>
+            <xs:extension base="xs:boolean"/>
+        </xs:simpleContent>
+    </xs:complexType>      
+
+    <xs:complexType name="PodilProcentoType">
+        <xs:annotation>
+            <xs:documentation>Procentní údaj mezi 0 - 100 % s možností uvedení dvou desetinných míst.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="ProcentoType">
+                <xs:minInclusive value="0" />
+                <xs:maxInclusive value="100" />
+                <xs:fractionDigits value="2" />
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="FinancniCastkaType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Finanční částka v korunách českých, uváděná podle potřeby s přesností na haléře.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="CastkaType">
+                <xs:pattern value="\-{0,1}((0|[1-9]{1}\d{0,14})[.]\d{2}|(0|[1-9]{1}\d{0,14}))"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="KodVykazuPKPType">
+        <xs:annotation>
+            <xs:documentation>Kódové označení účetního výkazu používané v Pomocném konsolidačním přehledu</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:enumeration value="MZA"/>
+                <xs:enumeration value="MZP"/>
+                <xs:enumeration value="N"/>
+                <xs:enumeration value="V"/>
+                <xs:enumeration value="HV"/>
+                <xs:enumeration value="P"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="RadekTypType">
+        <xs:annotation>
+            <xs:documentation>Typ řádku</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:enumeration value="D">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Deatilní řádek</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="S">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="cz">Součtový řádek na účelový znak</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>                
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="UdalostMimoradnaType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Identifikace mimořádné události</xs:documentation>
+        </xs:annotation>        
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:length value="2"/>                
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="PolozkaType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Identifikace položky výkazu, vycházející z xs:token.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:maxLength value="255"/>
+                <xs:minLength value="1"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="UkazatelType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Identifikace ukazatele, vycházející z xs:token.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:maxLength value="255"/>
+                <xs:minLength value="1"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="SyntetickyUcetType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Syntetický účet</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:pattern value="-|[0-9]{3}"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="ParagrafRozpoctovaSkladbaType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Číslo paragrafu rozpočtové skladby.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:length value="4"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="PolozkaRozpoctovaSkladbaType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Číslo položky rozpočtové skladby.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:length value="4"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="Nastroj4Type">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Čtyřmístný kód atributu NÁSTROJ.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:minLength value="0"/>
+                <xs:maxLength value="4"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="Zdroj4Type">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Čtyřmístný kód atributu ZDROJ.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:minLength value="0"/>
+                <xs:maxLength value="4"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="NastrojType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Dvoumístný kód atributu NÁSTROJ.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:minLength value="1"/>
+                <xs:maxLength value="2"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="ZdrojType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Jednomístný kód atributu ZDROJ.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:length value="1"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="ZnakUcelovyType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Číselný kód účelového znaku (podle číselníku účelových znaků).</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:minLength value="1"/>
+                <xs:maxLength value="5"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="MenaType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Kód měny - hodnoty omezené dle ISO 4217.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:minLength value="3"/>
+                <xs:maxLength value="3"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>    
+
+    <xs:complexType name="UverZapujckaNFVVycetType">
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:enumeration value="Ú">
+                    <xs:annotation>
+                        <xs:documentation>Úvěr</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="Z">
+                    <xs:annotation>
+                        <xs:documentation>Zápůjčka</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="NFV">
+                    <xs:annotation>
+                        <xs:documentation>Návratná finanční výpomoc (NFV)</xs:documentation>
+                    </xs:annotation>
+                </xs:enumeration>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="NutsKodType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Kód územní jednotky</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:pattern value="CZ[0-9a-zA-z]{1,4}"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="RadekCisloType">
+        <xs:annotation>
+            <xs:documentation xml:lang="cz">Číslo řádku</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:restriction base="SimpleTextType">
+                <xs:minLength value="1"/>
+                <xs:maxLength value="4"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="NumberType">
+        <xs:simpleContent>
+            <xs:extension base="xs:integer"/>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="DatumType">
+        <xs:simpleContent>
+            <xs:extension base="xs:date"/>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="SimpleTextType">
+        <xs:simpleContent>
+            <xs:extension base="xs:token"/>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="CastkaType">
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal"/>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ProcentoType">
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal"/>
+        </xs:simpleContent>
+    </xs:complexType>    
+    <xs:complexType name="CisloType">
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal"/>
+        </xs:simpleContent>
+    </xs:complexType>      
+
+</xs:schema>

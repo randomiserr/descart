@@ -1,0 +1,530 @@
+[
+  {
+    "id": "ae6f516a-bd87-4c2f-a940-2cecab98663c",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "{\"metadata\": {\"castkaCislo\": \"6/1993\", \"predpisCislo\": \"16/1993 Sb.\", \"rocnik\": 1993, \"datumUcinnostiZneniOd\": null}, \"fragmenty\": [{\"fragmentId\": 2641553, \"hloubka\": 0, \"typ\": \"Virtual_Document\", \"xhtml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 2641555, \"hloubka\": 1, \"typ\": \"Virtual_Prefix\", \"xhtml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 2641557, \"hloubka\": 2, \"typ\": \"Prefix_Number\", \"xhtml\": \"16\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2641559, \"hloubka\": 2, \"typ\": \"Prefix_Type\", \"xhtml\": \"ZÁKON\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2641561, \"hloubka\": 2, \"typ\": \"Prefix_Author\", \"xhtml\": \"České národní rady\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2641563, \"hloubka\": 2, \"typ\": \"Prefix_Date\", \"xhtml\": \"ze dne 21. prosince 1992\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2641565, \"hloubka\": 2, \"typ\": \"Prefix_Title\", \"xhtml\": \"o dani silniční\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2641567, \"hloubka\": 2, \"typ\": \"Prefix\", \"xhtml\": \"Česká ná",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "9d418f60-55a6-4545-8ff6-a509f154a09d",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "rodní rada se usnesla na tomto zákoně:\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2641569, \"hloubka\": 1, \"typ\": \"Virtual_Norma\", \"xhtml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 2642445, \"hloubka\": 2, \"typ\": \"Cast\", \"xhtml\": \"<var>ČÁST PRVNÍ</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642447, \"hloubka\": 3, \"typ\": \"Nadpis_pod\", \"xhtml\": \"ZÁKLADNÍ USTANOVENÍ\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642449, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 1</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642451, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"Tento zákon zapracovává příslušné předpisy Evropské unie<a data-odkaz-id=\\\"26427175\\\" href=\\\"#\\\" class=\\\"int_odkaz\\\" data-vyzadujerevizi=\\\"true\\\" data-orig-class=\\\"linkfrag\\\"  data-orig-href=\\\"../../../sbcr/1993/sbcr1993c006z0016/sbcr1993c006z0016-v19960530.html#f1479055\\\"><sup>1</sup>)</a> a upravuje daň silniční.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642455, \"hloubka\": 2, \"typ\": \"Cast\", \"xht",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "9884bba3-f203-4351-a12a-76eb7bfd0de5",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "ml\": \"<var>ČÁST DRUHÁ</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642457, \"hloubka\": 3, \"typ\": \"Nadpis_pod\", \"xhtml\": \"DAŇ\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642459, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 2</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642461, \"hloubka\": 4, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Předmět daně\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642463, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(1)</var> Předmětem daně silniční je zdanitelné vozidlo.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642465, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(2)</var> Zdanitelným vozidlem se pro účely daně silniční rozumí silniční vozidlo kategorie N<sub>2</sub> a N<sub>3</sub> a jejich přípojná vozidla kategorie O<sub>3</sub> nebo O<sub>4</sub>, pokud jsou registrovaná v registru silničních vozidel v České republice.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642467, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(3",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "e6b398b8-d848-4cb1-b715-cb27ee9f4a3b",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": ")</var> Zdanitelným vozidlem není silniční vozidlo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642645, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> vyřazené z provozu na základě rozhodnutí o žádosti vlastníka zdanitelného vozidla podle zákona upravujícího podmínky provozu vozidel na pozemních komunikacích,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642647, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> s přidělenou zvláštní registrační značkou podle zákona upravujícího podmínky provozu vozidel na pozemních komunikacích,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642649, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>c)</var> kategorie N podkategorie\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642473, \"hloubka\": 6, \"typ\": \"Bod_Dd\", \"xhtml\": \"<var>1.</var> vozidlo zvláštního určení nebo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642475, \"hloubka\": 6, \"typ\": \"Bod_Dd\", \"xhtml\": \"<var>2.</var> terénní vozidlo zvláštního určení nebo\", \"souborove",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "d1bb812a-84e2-4c3b-b416-69b66803571d",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "Dokumenty\": null}, {\"fragmentId\": 2642651, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>d)</var> kategorie O s kódem druhu karoserie DA.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642653, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(4)</var> Zdanitelné vozidlo není předmětem daně v kalendářním měsíci, ve kterém u něj vůbec nebyly naplněny skutečnosti, které jsou předmětem daně.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642655, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(5)</var> Zdanitelné vozidlo, u něhož dojde ke změně poplatníka, je v daném kalendářním měsíci předmětem daně pouze u nového poplatníka. Dojde-li k více změnám poplatníka, je v daném kalendářním měsíci předmětem daně pouze u posledního z nich.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642657, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(6)</var> Pro účely daně silniční se kategorií zdanitelného vozidla, jeho podkategorií a jeho kódem druhu karoserie rozumí kategorie, podkategorie",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "b482a712-96c3-4642-9161-95eaf9a8af07",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "a kód druhu karoserie podle přímo použitelného předpisu Evropské unie upravujícího schvalování motorových vozidel a jejich přípojných vozidel<a data-odkaz-id=\\\"26427199\\\" href=\\\"#\\\"  class=\\\"int_odkaz\\\"><sup>2</sup>)</a>.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642659, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(7)</var> Na vozidlo podle přímo použitelného předpisu Evropské unie upravujícího schvalování motorových vozidel a jejich přípojných vozidel<a data-odkaz-id=\\\"26427203\\\" href=\\\"#\\\"  class=\\\"int_odkaz\\\"><sup>2</sup>)</a>, které nemá v registru silničních vozidel uvedenu kategorii vozidla tvořenou kombinací písmene a číslice, podkategorii vozidla nebo kód druhu karoserie podle tohoto přímo použitelného předpisu, se hledí pro účely daně silniční jako na silniční vozidlo, které má v registru silničních vozidel uvedenu kategorii vozidla, podkategorii vozidla nebo kód druhu karoserie, které nejblíže odpovídají vymezení podle tohoto přímo použitelného předpisu.\", \"soubor",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "0817bf85-f7ac-4a6a-bee3-52e14b586392",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "oveDokumenty\": null}, {\"fragmentId\": 2642485, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 3</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642487, \"hloubka\": 4, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Osvobození od daně\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642489, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(1)</var> Od daně silniční se osvobozuje zdanitelné vozidlo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642661, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> vybavené zvláštním výstražným světlem modré barvy nebo modré a červené barvy, případně doplněným zvláštním zvukovým výstražným zařízením, pokud jsou tyto skutečnosti zapsány v registru silničních vozidel,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642493, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> určené jako státní hmotná rezerva, pokud není používáno k podnikání,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642495, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>c)</",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "f82d7b0b-deb9-4806-8af3-0d2a1e02aa33",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "var> kategorie O, pokud je poplatníkem dílčí daně za něj poplatník dílčí daně za zdanitelné vozidlo kategorie N s kódem druhu karoserie BD, nebo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642497, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>d)</var> poplatníka dílčí daně za toto vozidlo, pokud je tímto poplatníkem\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642499, \"hloubka\": 6, \"typ\": \"Bod_Dd\", \"xhtml\": \"<var>1.</var> diplomatická mise nebo konzulární úřad, je-li zaručena vzájemnost,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642639, \"hloubka\": 6, \"typ\": \"Bod_Dd\", \"xhtml\": \"<var>2.</var> poskytovatel zdravotních služeb, báňská záchranná služba nebo horská záchranná služba, je-li v registru silničních vozidel označeno jako sanitní nebo záchranářské,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642503, \"hloubka\": 6, \"typ\": \"Bod_Dd\", \"xhtml\": \"<var>3.</var> Český červený kříž, a to v rozsahu osvobození podle zákona upravujícího Český červený kříž, nebo\", \"souboroveDokum",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "cc642b6b-ea61-4675-a198-48bb96799be7",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "enty\": null}, {\"fragmentId\": 2642505, \"hloubka\": 6, \"typ\": \"Bod_Dd\", \"xhtml\": \"<var>4.</var> vlastník pozemní komunikace, správce pozemní komunikace nebo jimi pověřená osoba, je-li používáno výlučně k zabezpečení sjízdnosti nebo schůdnosti pozemní komunikace.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642507, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(2)</var> Zdanitelné vozidlo je od daně silniční osvobozeno v kalendářním měsíci, ve kterém byly splněny podmínky pro osvobození od daně ve všech dnech, kdy byly u tohoto zdanitelného vozidla naplněny skutečnosti, které jsou předmětem daně.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2641767, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 4</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2641769, \"hloubka\": 4, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Poplatníci daně\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642511, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(1)</var> Poplatníkem daně silniční je ten, kdo\", \"souboro",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "029e3166-0b7c-45ff-8325-b21391309e69",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "veDokumenty\": null}, {\"fragmentId\": 2642641, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> je jako provozovatel zdanitelného vozidla zapsán v registru silničních vozidel,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642643, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> užívá zdanitelné vozidlo, u něhož je v registru silničních vozidel zapsána jako provozovatel osoba, která zemřela, zanikla nebo byla zrušena.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642517, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(2)</var> Poplatníkem daně silniční je rovněž\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642521, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> osoba, která používá zdanitelné vozidlo určené jako státní hmotná rezerva,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642519, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> organizační složka osoby se sídlem nebo trvalým pobytem v zahraničí.\", \"souboroveDokumenty\": null}, {\"fra",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "86bda19d-9b14-4a1e-b48f-bf48e62e4f9c",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "gmentId\": 2642523, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(3)</var> Je-li u téhož zdanitelného vozidla poplatníků více, platí daň společně a nerozdílně.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642391, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(4)</var> Stálá provozovna podle právních předpisů upravujících daně z příjmů osoby se sídlem nebo trvalým pobytem v zahraničí se považuje za organizační složku podle <a data-odkaz-id=\\\"26404523\\\" href=\\\"#\\\"  class=\\\"int_odkaz\\\">odstavce 2 písm. c)</a>.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642525, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 5</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642527, \"hloubka\": 4, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Výše daně za zdanitelné vozidlo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642663, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(1)</var> Výše daně silniční za zdanitelné vozidlo je uvedena v <a data-odkaz-id=\\\"26427207\\\" href=\\\"#\\\"  class=\\\"int_odkaz\\",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "6c5dad8d-fa22-4fb7-ae62-0b9b2f33d93a",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "\">příloze</a> k tomuto zákonu.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642665, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(2)</var> Výše daně za zdanitelné vozidlo se určí přednostně podle údajů uvedených v registru silničních vozidel, bez ohledu na to, zda odpovídají skutečnému stavu, platných\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642667, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> na začátku zdaňovacího období nebo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642669, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> při první registraci tohoto zdanitelného vozidla v registru silničních vozidel v České republice, pokud k první registraci došlo v průběhu zdaňovacího období.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642671, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(3)</var> Dojde-li v průběhu zdaňovacího období k přestavbě zdanitelného vozidla, určí se jedna dvanáctina výše daně za jednotlivý kalendářní měsíc podle údajů u",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "424ccd80-7d68-48f5-992a-12bbcbc4741d",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "vedených v registru silničních vozidel, bez ohledu na to, zda odpovídají skutečnému stavu, platných\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642673, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> na začátku tohoto kalendářního měsíce nebo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642675, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> při první registraci tohoto zdanitelného vozidla v registru silničních vozidel v České republice, pokud k první registraci došlo v průběhu tohoto kalendářního měsíce.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601317, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(4)</var> Druh závěsu hnací nápravy zdanitelného vozidla se pro účely určení výše daně za toto zdanitelné vozidlo posoudí\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601319, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> k začátku zdaňovacího období, nebo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601321, \"hloubka\": 5, \"typ\":",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "850e6e9c-14f7-40ec-8f8b-0d83331da079",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "\"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> při první registraci tohoto zdanitelného vozidla v registru silničních vozidel v České republice, pokud k první registraci došlo v průběhu zdaňovacího období.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601323, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(5)</var> Pro účely daně silniční se na zdanitelné vozidlo hledí, jako by mělo vzduchový závěs hnací nápravy, pokud je podle <a data-odkaz-id=\\\"177606825\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\">zákona o silničním provozu</a> alespoň 1 hnací náprava pro účely posuzování největší povolené hmotnosti silničních vozidel, která neohrožuje bezpečnost provozu na pozemních komunikacích nebo stav pozemní komunikace, považována za nápravu vybavenou vzduchovým pérováním nebo pérováním uznaným za rovnocenné.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601325, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 12</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601327, \"hloubka\": 4, \"typ\": \"Na",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "ed543fa9-e8b1-46c7-af35-5a47942d511e",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "dpis_pod\", \"xhtml\": \"Sleva na dani za zdanitelné vozidlo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601329, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(1)</var> Sleva na dani silniční za zdanitelné vozidlo, které je používáno výlučně k přepravě v počátečním nebo konečném úseku kombinované dopravy, činí 100 % výše daně pro toto vozidlo.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601331, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(2)</var> Sleva na dani za zdanitelné vozidlo uskutečňující kombinovanou dopravu, při které se ve zdaňovacím období využije železniční doprava\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601333, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> ve více než 120 jízdách, činí 90 % výše daně pro toto vozidlo,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601335, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> od 91 do 120 jízd, činí 75 % výše daně pro toto vozidlo,\", \"souboroveDokumenty\": null}, {\"fragment",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "e58f0ef0-8bc4-4a8c-8d38-d221ed59a60e",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "Id\": 1075601337, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>c)</var> od 61 do 90 jízd, činí 50 % výše daně pro toto vozidlo, nebo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601339, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>d)</var> od 31 do 60 jízd, činí 25 % výše daně pro toto vozidlo.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601341, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(3)</var> Je-li úsek po železnici územím České republiky delší než 250 kilometrů vzdušnou čarou, započítává se pro účely slevy na dani taková jízda jako 2 jízdy.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601343, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(4)</var> Kombinovanou dopravou se pro účely daně silniční rozumí kombinovaná doprava podle zákona upravujícího silniční dopravu, pokud úsek po železnici nebo vnitrozemské vodní cestě přesahuje vzdálenost 100 kilometrů vzdušnou čarou a pokud její počáteční nebo konečný úsek tvoří přeprava po pozemní komunikac",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "4fa16d13-3110-4090-bb26-4ddcee291ed7",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "i mezi místem nakládky nebo vykládky zboží a\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601345, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> nejbližší železniční stanicí vhodnou k překládce nebo překladištěm kombinované dopravy, nebo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601347, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> vnitrozemským přístavem, jestliže nepřesahuje vzdálenost 150 kilometrů vzdušnou čarou.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601349, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(5)</var> Slevu na dani uplatní poplatník v daňovém přiznání.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642545, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 12a</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642547, \"hloubka\": 4, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Výpočet daně\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642549, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(1)</var> Daň silniční se vypočte ja",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "d363c604-83cc-47c1-9221-fadaa5fd7579",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "ko součet dílčích daní za jednotlivá zdanitelná vozidla.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642551, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(2)</var> Dílčí daň za jednotlivé zdanitelné vozidlo se vypočte jako rozdíl\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642677, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> výše daně pro toto zdanitelné vozidlo a\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642555, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> uplatněné slevy na dani za toto zdanitelné vozidlo.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642679, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(3)</var> Pokud zdanitelné vozidlo po část zdaňovacího období není předmětem daně, je osvobozeno nebo je v průběhu zdaňovacího období přestavěno tak, že tato přestavba má vliv na výši daně, vypočte se dílčí daň za jednotlivé zdanitelné vozidlo jako rozdíl\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642681, \"hloubka\": 5, \"typ\": \"Pi",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "027932c2-ecb8-420e-884f-f1a75932ac04",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "smeno_Lb\", \"xhtml\": \"<var>a)</var> úhrnu jedné dvanáctiny výše daně za každý kalendářní měsíc, ve kterém toto zdanitelné vozidlo je předmětem daně, případně snížený o úhrn jedné dvanáctiny výše daně za každý kalendářní měsíc, kdy je vozidlo osvobozeno, a\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642683, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> uplatněné slevy na dani za toto zdanitelné vozidlo.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642121, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 13</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642123, \"hloubka\": 4, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Zdaňovací období\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642557, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"Zdaňovacím obdobím daně silniční je kalendářní rok.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642135, \"hloubka\": 1, \"typ\": \"Virtual_Zaver\", \"xhtml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 2642559, \"hloubka\": 2, \"typ\": \"Paragraf\", \"",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "83573eb1-1201-465e-90d6-80827ac9606c",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "xhtml\": \"<var>§ 14</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642561, \"hloubka\": 3, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Rozpočtové určení daně\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642685, \"hloubka\": 3, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"Výnos daně silniční je příjmem státního rozpočtu.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642577, \"hloubka\": 2, \"typ\": \"Cast\", \"xhtml\": \"<var>ČÁST TŘETÍ</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642579, \"hloubka\": 3, \"typ\": \"Nadpis_pod\", \"xhtml\": \"SPRÁVA DANĚ\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642581, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 15</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642583, \"hloubka\": 4, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Daňové přiznání\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642585, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(1)</var> Poplatník je povinen podat řádné daňové přiznání k dani silniční, pokud se v něm uvádí alespoň jedno zdanitelné vozidlo, a to n",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "78b0bfd3-9bc7-4013-9c93-c9d766efa703",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "ejpozději do 31. ledna kalendářního roku následujícího po uplynutí zdaňovacího období.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642587, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(2)</var> V daňovém přiznání se uvádí pouze zdanitelné vozidlo,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642589, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> za které je dílčí daň vyšší než 0 Kč,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642591, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> za které se uplatňuje sleva na dani nebo\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642593, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>c)</var> které je osvobozeno, pokud by jinak dílčí daň za něj byla vyšší než 0 Kč.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642595, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(3)</var> V daňovém přiznání se neuvádí zdanitelné vozidlo osvobozené podle <a data-odkaz-id=\\\"26427187\\\" href=\\\"#\\\"  class=\\\"int_odkaz\\\">§ 3",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "418bbad0-951e-405d-bd44-60a24fafe14f",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "odst. 1 písm. d) bodu 1.</a>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642603, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(4)</var> Daňové přiznání k dani silniční se podává pouze elektronicky.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642597, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 16</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642599, \"hloubka\": 4, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Záznamní povinnost\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642601, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"Poplatník uplatňující slevu na dani silniční je povinen uchovávat přepravní doklady s potvrzenými údaji překladiště kombinované dopravy, případně nakládací a vykládací železniční stanice vhodné k překládce nebo vnitrozemského přístavu.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642605, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 16a</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642607, \"hloubka\": 4, \"typ\": \"Nadpis_pod\", \"xhtml\": \"Limit pr",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "2a2878fb-1e74-4360-b284-126d38a22af9",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "o předepsání a placení daně\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642609, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"Činí-li daň silniční méně než 100 Kč, daň se nepředepíše a neplatí.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642611, \"hloubka\": 2, \"typ\": \"Cast\", \"xhtml\": \"<var>ČÁST ČTVRTÁ</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642613, \"hloubka\": 3, \"typ\": \"Nadpis_pod\", \"xhtml\": \"USTANOVENÍ ZMOCŇOVACÍ A ZRUŠOVACÍ\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642209, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 17</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642241, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"Po vyhlášení stavu ohrožení státu nebo válečného stavu může vláda České republiky na dobu trvání stavu ohrožení nebo válečného stavu svým nařízením v nezbytném rozsahu pro zajištění nouzového nebo válečného státního rozpočtu<a data-odkaz-id=\\\"26402473\\\" href=\\\"#\\\"  class=\\\"int_odkaz\\\"><sup>7b</sup>)</a>\", \"souboroveDokumenty\": null}, {",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "1e01d37c-ab71-4e9a-a62d-67b5e74b9a58",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "\"fragmentId\": 2642615, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>a)</var> provést úpravu výše daně silniční,\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642617, \"hloubka\": 5, \"typ\": \"Pismeno_Lb\", \"xhtml\": \"<var>b)</var> zcela nebo částečně osvobodit od daně zdanitelné vozidlo používané k zajištění akcí v rámci vyhlášeného stavu ohrožení státu nebo válečného stavu.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642247, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 17a</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642417, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(1)</var> Zaplacené částky na dani v průběhu zdaňovacího období roku 1993, jde-li o vozidla uvedená v <a data-odkaz-id=\\\"26404589\\\" href=\\\"#\\\"  class=\\\"int_odkaz\\\">§ 8 odst. 1</a>, které převyšují daňovou povinnost podle platné právní úpravy v roce 1993, jsou přeplatkem na dani podle zvláštního předpisu. Obdobně postupuje správce daně, podá-li poplatník do 31. ledna roku 1994 žádost, v níž uplatní",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "91393efa-794f-403c-bb4e-7e11366eec63",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "nárok na osvobození podle <a data-odkaz-id=\\\"26404597\\\" href=\\\"#\\\" class=\\\"int_odkaz\\\" data-vyzadujerevizi=\\\"true\\\" data-orig-class=\\\"linkfrag\\\"  data-orig-href=\\\"../../../sbcr/1993/sbcr1993c006z0016/sbcr1993c006z0016-v0.html#f1478748\\\">§ 3 odst. 2</a> nebo nárok na slevu na dani podle <a data-odkaz-id=\\\"26404611\\\" href=\\\"#\\\"  class=\\\"int_odkaz\\\">§ 12 odst. 3</a> za zdaňovací období roku 1993.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642251, \"hloubka\": 4, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"<var>(2)</var> Vznikla-li daňová povinnost u vozidel uvedených v <a data-odkaz-id=\\\"26402651\\\" href=\\\"#\\\"  class=\\\"int_odkaz\\\">§ 8 odst. 1</a> v listopadu nebo prosinci roku 1993, zaplatí poplatník poměrnou výši daně připadající na tato vozidla nejpozději do 31. ledna 1994.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642257, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 18</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075610235, \"hloubka\": 4, \"typ\": \"Block_Zrusovaci_Ustanoveni\", \"xht",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "fef8d3e3-00bf-4843-9533-fc733cf57a70",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "ml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 2642259, \"hloubka\": 5, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"Zrušuje se <a data-odkaz-id=\\\"26402731\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\">zákon České národní rady č. 339/1992 Sb., o dani silniční</a>.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642261, \"hloubka\": 3, \"typ\": \"Paragraf\", \"xhtml\": \"<var>§ 19</var>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075609867, \"hloubka\": 4, \"typ\": \"Block_Ucinnostni_Ustanoveni\", \"xhtml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 2642263, \"hloubka\": 5, \"typ\": \"Odstavec_Dc\", \"xhtml\": \"Tento zákon nabývá účinnosti dnem 1. ledna 1993.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642265, \"hloubka\": 1, \"typ\": \"Virtual_Postfix\", \"xhtml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 2642267, \"hloubka\": 2, \"typ\": \"Postfix\", \"xhtml\": \"Uhde v. r.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642269, \"hloubka\": 2, \"typ\": \"Postfix\", \"xhtml\": \"Klaus v. r.\", \"souboroveDokumenty\": null}, {\"fragmentI",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "75a9f8a1-1fd5-4ffe-be9e-33714c19c6be",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "d\": 2642637, \"hloubka\": 1, \"typ\": \"Virtual_Prilohy\", \"xhtml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 2642635, \"hloubka\": 2, \"typ\": \"Block_Priloha\", \"xhtml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601351, \"hloubka\": 3, \"typ\": \"Hlavicka_priloha\", \"xhtml\": \"Příloha\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601353, \"hloubka\": 4, \"typ\": \"Nadpis\", \"xhtml\": \"Výše daně pro zdanitelná vozidla\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601355, \"hloubka\": 4, \"typ\": \"Bod_Rd\", \"xhtml\": \"<var>I.</var> Výše daně pro zdanitelné vozidlo kategorie N s kódem druhu karoserie BA nebo BB\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601357, \"hloubka\": 5, \"typ\": \"Tabulka\", \"xhtml\": \"<table class=\\\"TABLEX\\\" style=\\\"width:800px;\\\"><tbody><tr><th class=\\\"CT CL\\\" rowspan=\\\"2\\\" style=\\\"width:21%;vertical-align:middle;\\\">Počet náprav</th><th class=\\\"CT CL\\\" colspan=\\\"2\\\" style=\\\"width:41%;vertical-align:top;\\\">Největší povolená hmotnost v tunách</th><th class=\\\"CT CR CL",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "29a16e8f-8365-4ef3-b71e-d1ae0e282f4f",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "\\\" colspan=\\\"2\\\" style=\\\"width:38%;vertical-align:bottom;\\\">Výše daně v Kč</th></tr><tr><th class=\\\"CT CL\\\" style=\\\"vertical-align:middle;\\\">nejméně</th><th class=\\\"CT CL\\\" style=\\\"vertical-align:middle;\\\">méně než</th><th class=\\\"CT CL\\\" style=\\\"vertical-align:bottom;\\\">vzduchový závěs hnací nápravy</th><th class=\\\"CT CR CL\\\" style=\\\"vertical-align:bottom;\\\">jiný závěs hnací nápravy</th></tr><tr><td class=\\\"CT CL\\\" rowspan=\\\"5\\\" style=\\\"text-align:center;vertical-align:top;\\\">2</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">12</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">12</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">13</td><td class=\\\"CT CL\\\" style=\\\"text-align:ri",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "4c1c77f5-e7d4-4d5a-abb9-3d9943f23398",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "ght;vertical-align:bottom;\\\">0</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">804</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">13</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">14</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">804</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">2 304</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">14</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">15</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">2 304</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">3 204</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">15</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "00a4484a-784f-4be4-953a-6896bae51a2a",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "3 204</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">7 200</td></tr><tr><td class=\\\"CT CL\\\" rowspan=\\\"6\\\" style=\\\"text-align:center;vertical-align:top;\\\">3</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">15</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">15</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">17</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">768</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">1 404</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">17</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">19</td><td class=\\\"C",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "7a1bcee4-3380-4618-a7e9-2ae7ec9bf39c",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "T CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">1 404</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">2 904</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">19</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">21</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">2 904</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">3 804</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">21</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">23</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">3 804</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">5 808</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">23</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CL\\\" style=\\\"text-a",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "2a9035a9-6e94-476c-9f4a-d46d7185bc2a",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "lign:right;vertical-align:bottom;\\\">5 808</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">9 000</td></tr><tr><td class=\\\"CT CB CL\\\" rowspan=\\\"5\\\" style=\\\"text-align:center;vertical-align:top;\\\">4 a více</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">23</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">23</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">25</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">3 528</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">3 804</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">25</td><td class=\\\"CT CL\\\" style=\\\"text-align:cent",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "9942a4b9-1455-4cfb-9e31-b14e2aba0581",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "er;vertical-align:bottom;\\\">27</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">3 804</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">6 000</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">27</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">29</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">6 000</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">9 408</td></tr><tr><td class=\\\"CT CB CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">29</td><td class=\\\"CT CB CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CB CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">9 408</td><td class=\\\"CT CR CB CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">14 004</td></tr></tbody></table>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601359, \"hloubka\": 4, \"typ\": \"Bod_Rd\", \"xhtml\": \"<var>II.</var> Vý",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "2a22ab1b-9fad-499a-b01e-73f2cbd19f02",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "še daně pro zdanitelné vozidlo kategorie N s kódem druhu karoserie BC nebo BD\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601361, \"hloubka\": 5, \"typ\": \"Tabulka\", \"xhtml\": \"<table class=\\\"TABLEX\\\" style=\\\"width:800px;\\\"><tbody><tr><th class=\\\"CT CL\\\" rowspan=\\\"2\\\" style=\\\"width:21%;vertical-align:middle;\\\">Počet náprav</th><th class=\\\"CT CL\\\" colspan=\\\"2\\\" style=\\\"width:41%;vertical-align:bottom;\\\">Největší povolená hmotnost jízdní soupravy v tunách</th><th class=\\\"CT CR CL\\\" colspan=\\\"2\\\" style=\\\"width:38%;vertical-align:middle;\\\">Výše daně v Kč</th></tr><tr><th class=\\\"CT CL\\\" style=\\\"vertical-align:middle;\\\">nejméně</th><th class=\\\"CT CL\\\" style=\\\"vertical-align:middle;\\\">méně než</th><th class=\\\"CT CL\\\" style=\\\"vertical-align:bottom;\\\">vzduchový závěs hnací nápravy</th><th class=\\\"CT CR CL\\\" style=\\\"vertical-align:bottom;\\\">jiný závěs hnací nápravy</th></tr><tr><td class=\\\"CT CL\\\" rowspan=\\\"10\\\" style=\\\"text-align:center;vertical-align:middle;\\\">2</td><td class=\\\"CT CL\\\" style",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "fc9e52fb-d419-42da-a611-ae962ead6d57",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">16</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">16</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">18</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">408</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">18</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">20</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">408</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">900</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bot",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "01aac919-d5ce-4159-8bb8-2d8c064347ba",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "tom;\\\">20</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">22</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">900</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">2 004</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">22</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">23</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">2 004</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">2 604</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">23</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">25</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">2 604</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">4 608</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">25</td><td",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "a8abd8a2-153f-49a7-aa1f-5ffd133c4f29",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">28</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">4 608</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">8 004</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">28</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">31</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">8 004</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">8 700</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">31</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">33</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">8 700</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">12 108</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">33</td><td class=\\\"CT CL\\\"",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "5c051651-8e95-472f-9efb-d2ff9117aaae",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">12 108</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">18 408</td></tr><tr><td class=\\\"CT CB CL\\\" rowspan=\\\"4\\\" style=\\\"text-align:center;vertical-align:middle;\\\">3 a více</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">36</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">36</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">38</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">8 004</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">11 808</td></tr><tr><td class=\\\"CT CL\\\" style=\\",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "937c0762-6f3c-4190-910f-b28536597e83",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "\"text-align:center;vertical-align:bottom;\\\">38</td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">40</td><td class=\\\"CT CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">11 808</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">16 308</td></tr><tr><td class=\\\"CT CB CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">40</td><td class=\\\"CT CB CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CB CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">16 308</td><td class=\\\"CT CR CB CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">24 204</td></tr></tbody></table>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601363, \"hloubka\": 4, \"typ\": \"Bod_Rd\", \"xhtml\": \"<var>III.</var> Výše daně pro zdanitelné vozidlo kategorie O\", \"souboroveDokumenty\": null}, {\"fragmentId\": 1075601365, \"hloubka\": 5, \"typ\": \"Tabulka\", \"xhtml\": \"<table class=\\\"TABLEX\\\" style=\\\"width:800px;\\\"><tbody><tr><th class=\\\"CT CL\\\" colspan=\\",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "77987ad2-982d-4bd5-868a-e4e93f7700e6",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "\"2\\\" style=\\\"width:71%;vertical-align:bottom;\\\">Největší povolená hmotnost v tunách</th><th class=\\\"CT CR CL\\\" rowspan=\\\"2\\\" style=\\\"width:29%;vertical-align:middle;\\\">Výše daně v Kč</th></tr><tr><th class=\\\"CT CL\\\" style=\\\"vertical-align:bottom;\\\">nejméně</th><th class=\\\"CT CL\\\" style=\\\"vertical-align:bottom;\\\">méně než</th></tr><tr><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">12</td><td class=\\\"CT CR CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">0</td></tr><tr><td class=\\\"CT CB CL\\\" style=\\\"text-align:center;vertical-align:bottom;\\\">12</td><td class=\\\"CT CB CL\\\" style=\\\"text-align:center;vertical-align:top;\\\"></td><td class=\\\"CT CR CB CL\\\" style=\\\"text-align:right;vertical-align:bottom;\\\">3 600</td></tr></tbody></table>\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642353, \"hloubka\": 1, \"typ\": \"Virtual_PPC\", \"xhtml\": null, \"souboroveDokumenty\": null}, {\"fragmentId\": 2642453, \"",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "9e0b6988-0f71-440e-ae5b-83be3c83f934",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "hloubka\": 2, \"typ\": \"PPC\", \"xhtml\": \"<var><sup>1</sup>)</var> Směrnice Rady <a data-odkaz-id=\\\"42121105\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\" data-eurlex=\\\"true\\\" data-celexid=\\\"31983L0182\\\" data-cellarid=\\\"ae67d16a-2869-47ab-b554-5141884f5bf7\\\" data-orig-href=\\\"http://eur-lex.europa.eu/legal-content/CS/AUTO/?uri=cellar:ae67d16a-2869-47ab-b554-5141884f5bf7\\\">83/182/EHS</a> ze dne 28. března 1983 o osvobození od daní, které platí v rámci Společenství pro dočasný dovoz některých dopravních prostředků. <br/> Směrnice Rady <a class=\\\"linkeurule\\\" data-link=\\\"eurule\\\" data-cellarid=\\\"5a0d6fb9-ccbf-481a-b988-38370950521d\\\" href=\\\"http://eur-lex.europa.eu/legal-content/CS/AUTO/?uri=cellar:5a0d6fb9-ccbf-481a-b988-38370950521d\\\" data-author=\\\"http://publications.europa.eu/resource/authority/corporate-body/CONSIL\\\" data-dts=\\\"3\\\" data-dtt=\\\"L\\\" data-datepublication=\\\"1992-12-07\\\" data-dta=\\\"1992\\\" data-dtn=\\\"106\\\" data-id_celex=\\\"31992L0106\\\" data-typeid=\\\"0\\\" data-flag=\\\"1\\\">92/106/EHS</a> ze dne 7",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "10a026a0-505b-42db-b2f8-368f65532b94",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": ". prosince 1992 o zavedení společných pravidel pro určité druhy kombinované přepravy zboží mezi členskými státy. <br/> Směrnice Evropského parlamentu a Rady <a data-odkaz-id=\\\"42121111\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\" data-eurlex=\\\"true\\\" data-celexid=\\\"31999L0062\\\" data-cellarid=\\\"37a38b34-0108-45e2-a635-e7441d7e9c67\\\" data-orig-href=\\\"http://eur-lex.europa.eu/legal-content/CS/AUTO/?uri=cellar:37a38b34-0108-45e2-a635-e7441d7e9c67\\\">1999/62/ES</a> ze dne 17. června 1999 o výběru poplatků za užívání určitých pozemních komunikací těžkými nákladními vozidly. <br/> Směrnice Evropského parlamentu a Rady <a data-odkaz-id=\\\"42121117\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\" data-eurlex=\\\"true\\\" data-celexid=\\\"32011L0076\\\" data-cellarid=\\\"398e673d-129e-42e8-bc4f-30af32f21ea5\\\" data-orig-href=\\\"http://eur-lex.europa.eu/legal-content/CS/AUTO/?uri=cellar:398e673d-129e-42e8-bc4f-30af32f21ea5\\\">2011/76/EU</a> ze dne 27. září 2011, kterou se mění směrnice <a data-odkaz-id=\\\"42121123\\\" href=\\\"#\\\"  class=\\\"e",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "be48c11f-f884-4a0d-8c07-cfc768bd15d9",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "xt_odkaz\\\" data-eurlex=\\\"true\\\" data-celexid=\\\"31999L0062\\\" data-cellarid=\\\"37a38b34-0108-45e2-a635-e7441d7e9c67\\\" data-orig-href=\\\"http://eur-lex.europa.eu/legal-content/CS/AUTO/?uri=cellar:37a38b34-0108-45e2-a635-e7441d7e9c67\\\">1999/62/ES</a> o výběru poplatků za užívání určitých pozemních komunikací těžkými nákladními vozidly.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642509, \"hloubka\": 2, \"typ\": \"PPC\", \"xhtml\": \"<var><sup>2</sup>)</var> Nařízení Evropského parlamentu a Rady (EU) 2018/858 ze dne 30. května 2018 o schvalování motorových vozidel a jejich přípojných vozidel, jakož i systémů, konstrukčních částí a samostatných technických celků určených pro tato vozidla a o dozoru nad trhem s nimi, o změně nařízení (ES) č. <a data-odkaz-id=\\\"42121093\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\" data-eurlex=\\\"true\\\" data-celexid=\\\"32007R0715\\\" data-cellarid=\\\"03e19ce5-448d-43dd-b49a-1c68d75c78f4\\\" data-orig-href=\\\"http://eur-lex.europa.eu/legal-content/CS/AUTO/?uri=cellar:03e19ce5-448d-43dd-b4",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  },
+  {
+    "id": "ba623049-9242-4db1-9617-ea247b25a97d",
+    "source_document": "e-sbirka\\Sb_1993_16\\Sb_1993_16_2025-07-01_IZ.json",
+    "content_chunk": "9a-1c68d75c78f4\\\">715/2007</a> a č. 595/2009 a o zrušení směrnice <a data-odkaz-id=\\\"42121099\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\" data-eurlex=\\\"true\\\" data-celexid=\\\"32007L0046\\\" data-cellarid=\\\"540b8f36-b823-4895-b364-eab55ac0d1ce\\\" data-orig-href=\\\"http://eur-lex.europa.eu/legal-content/CS/AUTO/?uri=cellar:540b8f36-b823-4895-b364-eab55ac0d1ce\\\">2007/46/ES</a>, v platném znění.\", \"souboroveDokumenty\": null}, {\"fragmentId\": 2642347, \"hloubka\": 2, \"typ\": \"PPC\", \"xhtml\": \"<var><sup>7b</sup>)</var> <a data-odkaz-id=\\\"26404403\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\">§ 31</a> a <a data-odkaz-id=\\\"26404429\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\">32</a> <a data-odkaz-id=\\\"26404455\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\">zákona č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů</a> (<a data-odkaz-id=\\\"26404481\\\" href=\\\"#\\\"  class=\\\"ext_odkaz\\\">rozpočtová pravidla</a>).\", \"souboroveDokumenty\": null}], \"sablonaHierarchieKod\": \"SABL_NOVY_PA_ZAKON\", \"sablonaHierarchieVerze\": 1}",
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "domain_tags": [
+      "imported",
+      "json",
+      "Sb_1993_16"
+    ]
+  }
+]

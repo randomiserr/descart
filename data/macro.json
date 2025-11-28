@@ -1,0 +1,37 @@
+[
+    {
+        "indicator": "GDP_Growth",
+        "value": 1.2,
+        "unit": "%",
+        "period": "2024-Q3",
+        "source": "CSU"
+    },
+    {
+        "indicator": "CPI_Inflation",
+        "value": 2.5,
+        "unit": "%",
+        "period": "2024-Sep",
+        "source": "CSU"
+    },
+    {
+        "indicator": "Unemployment_Rate",
+        "value": 3.6,
+        "unit": "%",
+        "period": "2024-Sep",
+        "source": "CSU"
+    },
+    {
+        "indicator": "Repo_Rate",
+        "value": 4.25,
+        "unit": "%",
+        "period": "2024-Oct",
+        "source": "CNB"
+    },
+    {
+        "indicator": "Public_Debt_to_GDP",
+        "value": 44.1,
+        "unit": "%",
+        "period": "2023-Year",
+        "source": "MFCR"
+    }
+]

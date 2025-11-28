@@ -1,0 +1,145 @@
+{
+  "version" : "2.0",
+  "class" : "dataset",
+  "href" : "https://data.csu.gov.cz/api/dotaz/v1/data/vybery/uzivatelske/bede8003-17af-4cf7-a5fc-1a3afb8d6318",
+  "label" : "PMZ01T01_Počet zaměstnanců a průměrné hrubé měsíční mzdy (na přepočtené počty) - čtvrtletní údaje",
+  "source" : "DataStat – databáze ČSÚ",
+  "note" : [ "Uživatelem nastavený výběr.", null ],
+  "updated" : "2025-11-25T20:25:28.429333Z",
+  "id" : [ "Uz02", "IndicatorType", "CasQ" ],
+  "size" : [ 1, 4, 10 ],
+  "role" : {
+    "geo" : [ "Uz02" ],
+    "metric" : [ "IndicatorType" ],
+    "time" : [ "CasQ" ]
+  },
+  "dimension" : {
+    "Uz02" : {
+      "label" : "Území",
+      "category" : {
+        "index" : {
+          "CZ" : 0
+        },
+        "label" : {
+          "CZ" : "Česko"
+        },
+        "note" : [ null ]
+      }
+    },
+    "IndicatorType" : {
+      "label" : "Ukazatel",
+      "category" : {
+        "index" : {
+          "299AQ" : 0,
+          "5958P" : 1,
+          "299I" : 2,
+          "5958PI" : 3
+        },
+        "label" : {
+          "299AQ" : "Průměrný evidenční počet zaměstnanců přepočtený (tis. osob)",
+          "5958P" : "Průměrná hrubá měsíční mzda na přepočtené počty zaměstnanců (Kč)",
+          "299I" : "Průměrný evidenční počet zaměstnanců přepočtený - meziroční index (%)",
+          "5958PI" : "Průměrná hrubá měsíční mzda na přepočtené počty zaměstnanců - meziroční index (%)"
+        },
+        "note" : [ "" ],
+        "unit" : {
+          "299I" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          },
+          "299AQ" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          },
+          "5958P" : {
+            "decimals" : 0,
+            "symbol" : "",
+            "position" : ""
+          },
+          "5958PI" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          },
+          "5958MRI" : {
+            "decimals" : 1,
+            "symbol" : "",
+            "position" : ""
+          }
+        }
+      }
+    },
+    "CasQ" : {
+      "label" : "Čtvrtletí",
+      "category" : {
+        "index" : {
+          "2023-Q1" : 0,
+          "2023-Q2" : 1,
+          "2023-Q3" : 2,
+          "2023-Q4" : 3,
+          "2024-Q1" : 4,
+          "2024-Q2" : 5,
+          "2024-Q3" : 6,
+          "2024-Q4" : 7,
+          "2025-Q1" : 8,
+          "2025-Q2" : 9
+        },
+        "label" : {
+          "2023-Q1" : "1. čtvrtletí 2023",
+          "2023-Q2" : "2. čtvrtletí 2023",
+          "2023-Q3" : "3. čtvrtletí 2023",
+          "2023-Q4" : "4. čtvrtletí 2023",
+          "2024-Q1" : "1. čtvrtletí 2024",
+          "2024-Q2" : "2. čtvrtletí 2024",
+          "2024-Q3" : "3. čtvrtletí 2024",
+          "2024-Q4" : "4. čtvrtletí 2024",
+          "2025-Q1" : "1. čtvrtletí 2025",
+          "2025-Q2" : "2. čtvrtletí 2025"
+        },
+        "note" : [ null ]
+      }
+    }
+  },
+"value":[
+4030.1249297448, 4047.1139070525, 4042.4616540316, 4070.8795798181, 4009.5263857072, 4023.7041855469, 4018.6108529967, 4052.2648010223, 4021.02948147, 4038.0266474802, 40801.1062410445, 42773.7207792753, 42071.4246666013, 45532.0554367528, 43980.2729040652, 45819.2285107146, 45100.5675679599, 48666.9602253799, 46886.9351718122, 49402.4507044547, 100.9941533116, 100.4214153841, 100.2876895788, 100.1196107096, 99.4888857195, 99.4215699868, 99.4099931409, 99.5427332489, 100.286894128, 100.3559521593, 108.2504950621, 107.672742763, 106.8178913508, 106.190155652, 107.8, 107.1, 107.2, 106.9, 106.6, 107.8],
+"status":{
+"4": "P",
+"5": "P",
+"6": "P",
+"7": "P",
+"8": "P",
+"9": "P",
+"14": "P",
+"15": "P",
+"16": "P",
+"17": "P",
+"18": "P",
+"19": "P",
+"24": "P",
+"25": "P",
+"26": "P",
+"27": "P",
+"28": "P",
+"29": "P",
+"34": "P",
+"35": "P",
+"36": "P",
+"37": "P",
+"38": "P",
+"39": "P"  },
+"extension":{
+"published":
+[1, 1, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2],
+"publishedCode":{
+     "1" : "2025-06-04T07:00Z",
+     "2" : "2025-09-03T07:00Z"
+  },
+"status":{
+    "label":{
+     "P" : "Předběžná hodnota"
+    }
+  }
+}
+}
