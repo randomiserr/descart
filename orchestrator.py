@@ -26,51 +26,6 @@ class AdvisorOrchestrator:
         # 3. Synthesis
         print("3. Synthesizing Report...")
         report = self._synthesize_report(claims, context)
-        print("   Report generated.")
-        
-        return report
-
-    def _extract_claims(self, text: str) -> List[Dict]:
-        """
-        Uses LLM to parse text into structured claims.
-        """
-        system_prompt = """
-        You are an expert political analyst. Your task is to extract specific, testable claims from political texts.
-        For each claim, identify:
-        - text: The exact claim text.
-        - type: 'spending_increase', 'spending_cut', 'revenue_increase', 'revenue_decrease', 'regulatory_change', or 'general_policy'.
-        - target: The specific entity, tax, or budget item involved (e.g., 'banks', 'VAT', 'renewable energy').
-        - amount_claimed: Any specific numbers mentioned (e.g., '20 billion CZK').
-        
-        Return the output as a JSON list of objects.
-        """
-        
-        response = self.llm.generate_response(f"Extract claims from this text:\n\n{text}", system_prompt)
-        
-        try:
-            # Clean markdown code blocks if present
-            clean_json = response.replace("```json", "").replace("```", "").strip()
-            parsed = json.loads(clean_json)
-            if isinstance(parsed, list):
-                # Ensure all items are dicts
-                validated_claims = []
-                for item in parsed:
-                    if isinstance(item, str):
-                        validated_claims.append({"text": item, "type": "general_policy", "target": "unknown"})
-                    elif isinstance(item, dict):
-                        validated_claims.append(item)
-                return validated_claims
-            return [{"text": text, "type": "general_policy", "target": "unknown"}]
-        except Exception as e:
-            print(f"Error parsing LLM extraction: {e}")
-            # Fallback to simple split
-            return [{"text": text, "type": "general_policy", "target": "unknown"}]
-
-    def _retrieve_context(self, claims: List[Dict]) -> Dict[str, Any]:
-        """
-        Calls tools based on claims.
-        """
-        context = {
             "budget_data": [],
             "legal_context": [],
             "macro_data": {},
