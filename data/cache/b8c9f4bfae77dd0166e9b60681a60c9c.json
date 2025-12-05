@@ -1,0 +1,13 @@
+{
+  "mode": "analysis",
+  "executive_summary": {
+    "plan_name": "Chyba analýzy",
+    "overview_cs": "Nepodařilo se dokončit analýzu. Error: 36 validation errors for PlanAnalysis\ntopics.0.dimensions.0.dimension\n  Field required [type=missing, input_value={'dimension_name': 'prove...telnost neznámá [4].'}, input_type=dict]\n    For further i",
+    "main_benefits": [],
+    "main_risks": [],
+    "strategic_verdict_2035": "N/A",
+    "recommendations": []
+  },
+  "topics": [],
+  "sources": []
+}

@@ -112,6 +112,33 @@ class DataLayer:
                 results.append(item)
         return results
 
+    def get_budget_by_code(self, code: str, exact: bool = False) -> List[Dict]:
+        """
+        Get budget items by category code.
+        
+        Args:
+            code: Budget code (e.g., "4111" or "4xxx" for wildcard)
+            exact: If True, exact match. If False, prefix match.
+        """
+        results = []
+        
+        for item in self.budget:
+            item_code = str(item.get("category_code", ""))
+            
+            if exact:
+                if item_code == code:
+                    results.append(item)
+            else:
+                # Wildcard support: "4xxx" matches "4111", "4112", etc.
+                if code.endswith("xxx"):
+                    prefix = code[:-3]
+                    if item_code.startswith(prefix):
+                        results.append(item)
+                elif item_code.startswith(code):
+                    results.append(item)
+        
+        return results
+
     def get_macro_snapshot(self, indicators: List[str] = None) -> Dict[str, Dict]:
         """
         Get latest values for requested macro indicators.
@@ -290,6 +317,38 @@ class DataLayer:
             
         return results
 
+    def search_tavily(self, query: str, max_results: int = 5) -> List[Dict]:
+        """
+        Search using Tavily API.
+        """
+        api_key = os.getenv("TAVILY_API_KEY")
+        if not api_key or api_key == "placeholder":
+            print("Tavily API key missing or placeholder. Falling back to DuckDuckGo.")
+            return self.search_web(query, max_results)
+            
+        try:
+            import requests
+            response = requests.post(
+                "https://api.tavily.com/search",
+                json={"api_key": api_key, "query": query, "max_results": max_results},
+                timeout=10
+            )
+            response.raise_for_status()
+            data = response.json()
+            
+            results = []
+            for r in data.get("results", []):
+                results.append({
+                    "title": r.get("title"),
+                    "link": r.get("url"),
+                    "snippet": r.get("content"),
+                    "source": "Tavily"
+                })
+            return results
+        except Exception as e:
+            print(f"Tavily search error: {e}")
+            return self.search_web(query, max_results) # Fallback
+
 # Global instance
 data_layer = DataLayer()
 
@@ -308,3 +367,9 @@ def get_tax_revenue_estimate(tax_type: str) -> Optional[Dict]:
 
 def search_web(query: str, max_results: int = 5) -> List[Dict]:
     return data_layer.search_web(query, max_results)
+
+def search_tavily(query: str, max_results: int = 5) -> List[Dict]:
+    return data_layer.search_tavily(query, max_results)
+
+def get_budget_by_code(code: str, exact: bool = False) -> List[Dict]:
+    return data_layer.get_budget_by_code(code, exact)

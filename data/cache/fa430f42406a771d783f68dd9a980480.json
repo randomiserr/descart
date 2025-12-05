@@ -1,0 +1,152 @@
+{
+  "mode": "analysis",
+  "executive_summary": {
+    "plan_name": "Rozvoj vysokého školství a propojení s trhem práce",
+    "overview_cs": "Plán se zaměřuje na řešení strukturálního nesouladu mezi absolventy VŠ a potřebami trhu práce, což je dlouhodobě identifikovaný problém české ekonomiky [1][3]. Klíčovými prvky jsou zvýšení kapacity VŠ, cílená podpora technických a zdravotnických oborů [4][6], a zavedení mechanismů pro propojení financování VŠ s trhem práce [1]. Sociální rozměr je posílen rozšířením programu Erasmus+ pro znevýhodněné studenty [2].",
+    "main_benefits": [
+      "Zvýšení konkurenceschopnosti: Cílená podpora technických oborů (STEM) odpovídá strategickému cíli posílení vědy, matematiky a technologií, což je klíčové pro ekonomiku s vyšší přidanou hodnotou [4][6].",
+      "Efektivita veřejných výdajů: Propojení financování s potřebami trhu práce posiluje poptávku po vzdělávání a odborné přípravě, čímž se zvyšuje návratnost investic do terciárního vzdělávání [3]."
+    ],
+    "main_risks": [
+      "Fiskální zátěž: Zvýšení kapacity VŠ vyžaduje nekvantifikované, ale značné investice do infrastruktury (CAPEX) a provozních nákladů (OPEX) [7].",
+      "Riziko kvality: Rychlé navyšování kapacit v technických a medicínských oborech může ohrozit kvalitu výuky, pokud nebude zajištěn dostatečný počet vysoce kvalifikovaných akademických pracovníků."
+    ],
+    "strategic_verdict_2035": "Tento plán představuje klíčovou strategickou investici do lidského kapitálu, která je nezbytná pro zvýšení konkurenceschopnosti ekonomiky a posun k vyšší přidané hodnotě. Přímé propojení financování vysokých škol s potřebami trhu práce a cílená podpora technických oborů jsou správné mechanismy pro řešení strukturálních nedostatků pracovní síly. Hlavním rizikem je nekvantifikovaný fiskální dopad a zajištění dostatečného počtu kvalifikovaných pedagogů pro rychlou expanzi kapacit.",
+    "recommendations": [
+      "Okamžitě kvantifikovat CAPEX a OPEX pro navýšení kapacity v technických a zdravotnických oborech a zajistit stabilní víceleté financování.",
+      "Zavést výkonnostní ukazatele pro financování VŠ, které explicitně měří uplatnění absolventů v oborech s vysokou přidanou hodnotou (např. ICT, inženýrství) a jejich mzdové ohodnocení.",
+      "Vytvořit cílený program pro nábor a udržení akademických pracovníků v nedostatkových technických oborech, včetně možnosti flexibilního zapojení expertů z praxe."
+    ]
+  },
+  "topics": [
+    {
+      "topic_id": "1",
+      "topic_name": "Rozvoj vysokého školství",
+      "current_state_cs": "Současný stav: Česká republika čelí strukturálnímu nesouladu mezi výstupem vysokých škol a poptávkou trhu práce, což je problém, který je nutné řešit novými mechanismy financování [1][3]. Existuje strategická potřeba posílit kapacity v oborech STEM (věda, technologie, inženýrství, matematika) [4][6][7]. Ministerstvo školství uznává, že je nutné zavést vhodné mechanismy financování, které by řešily nerovnosti a posílily vazbu terciárního vzdělávání na trh práce [1][2].",
+      "summary_cs": "Plán je strategicky správně zacílen na klíčové problémy české ekonomiky – nedostatek kvalifikované pracovní síly v technologiích a zdravotnictví. Propojení financování s trhem práce je moderní a efektivní přístup, který by měl zvýšit návratnost veřejných investic do vzdělávání [3]. Rozšíření Erasmus+ má pozitivní dopad na sociální inkluzi [2].",
+      "dimensions": [
+        {
+          "dimension": "proveditelnost",
+          "score": 7,
+          "verdict_cs": "Vysoká proveditelnost v oblasti legislativy a strategického zacílení, nižší v oblasti rychlé realizace staveb a náboru personálu.",
+          "explanation_cs": "Strategické cíle (zvýšení kapacity, propojení s trhem práce) jsou v souladu se stávajícími dokumenty MŠMT [1][7]. Implementace nových finančních mechanismů je administrativně zvládnutelná. Hlavní překážkou je fyzická realizace navýšení kapacit (infrastruktura) a zajištění dostatečného počtu vysoce kvalifikovaných pedagogů pro technické a medicínské obory, kde je konkurence ze soukromého sektoru vysoká.",
+          "key_risks": [
+            "Nedostatek kvalifikovaných akademických pracovníků v technických oborech.",
+            "Pomalá stavební řízení pro rozšíření univerzitních kampusů."
+          ],
+          "key_benefits": [
+            "Využití stávajících strategických rámců MŠMT pro financování [1].",
+            "Jasné politické zacílení na prioritní obory (STEM) [4][6]."
+          ]
+        },
+        {
+          "dimension": "ekonomicky_dopad",
+          "score": 8,
+          "verdict_cs": "Silný pozitivní dopad, protože řeší kritické strukturální nedostatky pracovní síly.",
+          "explanation_cs": "Cílená podpora technických a zdravotnických oborů přímo zvyšuje nabídku pracovní síly v sektorech s nejvyšší přidanou hodnotou a největším nedostatkem [4][6]. Propojení financování s potřebami trhu práce by mělo snížit produkci absolventů v méně žádaných oborech, čímž se zvýší efektivita investic a produktivita práce v ekonomice.",
+          "key_risks": [
+            "Riziko špatné kalibrace poptávky trhu práce, vedoucí k nadprodukci v některých oborech."
+          ],
+          "key_benefits": [
+            "Zvýšení inovativního potenciálu ekonomiky.",
+            "Snížení mzdových tlaků v klíčových technických sektorech."
+          ]
+        },
+        {
+          "dimension": "fiskalni_dopad",
+          "score": 4,
+          "verdict_cs": "Negativní krátkodobý dopad kvůli vysokým investičním nákladům, dlouhodobý dopad je pozitivní, ale nekvantifikovaný.",
+          "explanation_cs": "Zvýšení kapacity VŠ, zejména v technických a medicínských oborech, je kapitálově náročné (laboratoře, přístroje, budovy) [7]. Plán neobsahuje kvantifikaci těchto nákladů. I když se očekává vyšší daňový výnos z produktivnější pracovní síly v budoucnu, počáteční fiskální zátěž bude značná a musí být transparentně pokryta.",
+          "key_risks": [
+            "Nekvantifikované miliardové investiční náklady (CAPEX).",
+            "Zvýšené provozní náklady (OPEX) na specializovaný personál."
+          ],
+          "key_benefits": [
+            "Dlouhodobý růst daňových příjmů z vyšší produktivity absolventů."
+          ]
+        },
+        {
+          "dimension": "socialni_dopad",
+          "score": 9,
+          "verdict_cs": "Velmi silný pozitivní dopad, zejména v oblasti rovnosti příležitostí a dostupnosti zdravotní péče.",
+          "explanation_cs": "Rozšíření programu Erasmus+ pro sociálně slabší studenty přímo řeší nerovnosti v terciárním vzdělávání [2]. Zvýšení počtu absolventů medicíny a zdravotnických oborů je klíčové pro udržitelnost a kvalitu veřejného zdravotnictví. Lepší uplatnění absolventů snižuje sociální frustraci a zvyšuje stabilitu mladé generace.",
+          "key_risks": [
+            "Žádné významné sociální riziko."
+          ],
+          "key_benefits": [
+            "Snížení sociálních nerovností ve vzdělávání [2].",
+            "Zlepšení dostupnosti zdravotnických služeb."
+          ]
+        },
+        {
+          "dimension": "transnacionalni_vyznam",
+          "score": 8,
+          "verdict_cs": "Vysoký význam, posiluje mezinárodní konkurenceschopnost a integraci do EU.",
+          "explanation_cs": "Podpora mobility studentů (Erasmus+) posiluje mezinárodní spolupráci a výměnu znalostí, což je v souladu se strategií celoživotního učení EU [8]. Cílení na technologické obory přispívá k plnění evropských cílů v oblasti digitální transformace a strategické autonomie.",
+          "key_risks": [
+            "Odliv nejlepších absolventů do zahraničí po získání kvalifikace."
+          ],
+          "key_benefits": [
+            "Zvýšení mezinárodní atraktivity českých VŠ.",
+            "Posílení evropské spolupráce ve vzdělávání."
+          ]
+        },
+        {
+          "dimension": "strategie_2035",
+          "score": 8,
+          "verdict_cs": "Klíčový pilíř pro dosažení konkurenceschopné a stabilní ekonomiky.",
+          "explanation_cs": "Plán přímo řeší potřebu transformace ekonomiky směrem k vyšší přidané hodnotě prostřednictvím kvalifikovaného lidského kapitálu. Propojení financování s trhem práce zajišťuje, že veřejné prostředky jsou investovány efektivně a strategicky, což je nezbytné pro dlouhodobou stabilitu a prosperitu.",
+          "key_risks": [
+            "Selhání implementace mechanismů propojení financování s trhem práce, vedoucí k plýtvání zdroji."
+          ],
+          "key_benefits": [
+            "Zajištění kvalifikované pracovní síly pro klíčové sektory (technologie, zdravotnictví).",
+            "Zvýšení efektivity veřejného sektoru vzdělávání."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "1",
+      "name": "Ministry of Education, Youth and Sports",
+      "url": "https://www.msmt.cz/file/38362_1_1/"
+    },
+    {
+      "id": "2",
+      "name": "THE NATIONAL CONTEXT OF TERTIARY EDUCATION",
+      "url": "https://www.msmt.cz/uploads/report_czech_FINAL_vse_dohromady.pdf"
+    },
+    {
+      "id": "3",
+      "name": "Advancing Adult Learning in Eastern Europe and Central ...",
+      "url": "https://www.msmt.cz/file/15936_1_1/"
+    },
+    {
+      "id": "4",
+      "name": "Graphs | Products",
+      "url": "https://www.czso.cz/csu/czso/graphs-cq8ovqi7hs"
+    },
+    {
+      "id": "5",
+      "name": "9. Information society | Products",
+      "url": "https://www.czso.cz/csu/czso/9-information-society-5k5lkwg6q2"
+    },
+    {
+      "id": "6",
+      "name": "Graphs | Products",
+      "url": "https://www.czso.cz/csu/czso/graphs-4jf0auuy9q"
+    },
+    {
+      "id": "7",
+      "name": "Research and Development for Innovations",
+      "url": "https://www.msmt.cz/file/5299_1_1/download/"
+    },
+    {
+      "id": "8",
+      "name": "The Strategy of Lifelong Learning in the Czech Republic",
+      "url": "https://www.msmt.cz/uploads/Zalezitosti_EU/strategie_2007_EN_web_jednostrany.pdf"
+    }
+  ]
+}

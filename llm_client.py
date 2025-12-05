@@ -50,6 +50,8 @@ class LLMClient:
             return response.text
         except Exception as e:
             print(f"LLM API Error: {e}")
+            import traceback
+            traceback.print_exc()
             return self._mock_response(prompt)
 
     def _mock_response(self, prompt: str) -> str:

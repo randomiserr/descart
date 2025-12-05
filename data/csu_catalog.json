@@ -1,0 +1,198 @@
+[
+    {
+        "id": "pop_total",
+        "name": "Celková populace ČR",
+        "keywords": [
+            "populace",
+            "obyvatel",
+            "lidí",
+            "občanů",
+            "population",
+            "citizens"
+        ],
+        "value": 10827529,
+        "unit": "persons",
+        "year": 2023,
+        "source": "ČSÚ - Sčítání lidu"
+    },
+    {
+        "id": "pop_pensioners",
+        "name": "Počet starobních důchodců",
+        "keywords": [
+            "důchodci",
+            "penzisté",
+            "senioři",
+            "pensioners",
+            "retirees"
+        ],
+        "value": 2367000,
+        "unit": "persons",
+        "year": 2023,
+        "source": "ČSSZ - Statistická ročenka"
+    },
+    {
+        "id": "pop_students_uni",
+        "name": "Počet vysokoškolských studentů",
+        "keywords": [
+            "studenti",
+            "vysokoškoláci",
+            "univerzity",
+            "students",
+            "university"
+        ],
+        "value": 304000,
+        "unit": "persons",
+        "year": 2023,
+        "source": "MŠMT"
+    },
+    {
+        "id": "pop_students_prim_sec",
+        "name": "Počet žáků ZŠ a SŠ",
+        "keywords": [
+            "žáci",
+            "školáci",
+            "středoškoláci",
+            "děti",
+            "pupils"
+        ],
+        "value": 1450000,
+        "unit": "persons",
+        "year": 2023,
+        "source": "MŠMT"
+    },
+    {
+        "id": "pop_employees",
+        "name": "Počet zaměstnanců",
+        "keywords": [
+            "zaměstnanci",
+            "pracující",
+            "pracovníci",
+            "employees",
+            "workers"
+        ],
+        "value": 4050000,
+        "unit": "persons",
+        "year": 2023,
+        "source": "ČSÚ - Zaměstnanost"
+    },
+    {
+        "id": "pop_teachers",
+        "name": "Počet učitelů",
+        "keywords": [
+            "učitelé",
+            "kantoři",
+            "pedagogové",
+            "teachers"
+        ],
+        "value": 180000,
+        "unit": "persons",
+        "year": 2023,
+        "source": "MŠMT"
+    },
+    {
+        "id": "pop_doctors",
+        "name": "Počet lékařů",
+        "keywords": [
+            "lékaři",
+            "doktoři",
+            "doctors",
+            "physicians"
+        ],
+        "value": 55000,
+        "unit": "persons",
+        "year": 2022,
+        "source": "ÚZIS"
+    },
+    {
+        "id": "pop_nurses",
+        "name": "Počet zdravotních sester",
+        "keywords": [
+            "sestry",
+            "zdravotní sestry",
+            "nurses"
+        ],
+        "value": 85000,
+        "unit": "persons",
+        "year": 2022,
+        "source": "ÚZIS"
+    },
+    {
+        "id": "pop_firefighters",
+        "name": "Počet hasičů (HZS)",
+        "keywords": [
+            "hasiči",
+            "požárníci",
+            "firefighters"
+        ],
+        "value": 11500,
+        "unit": "persons",
+        "year": 2023,
+        "source": "HZS ČR"
+    },
+    {
+        "id": "pop_police",
+        "name": "Počet policistů",
+        "keywords": [
+            "policisté",
+            "policie",
+            "police"
+        ],
+        "value": 40000,
+        "unit": "persons",
+        "year": 2023,
+        "source": "Policie ČR"
+    },
+    {
+        "id": "avg_wage",
+        "name": "Průměrná hrubá mzda",
+        "keywords": [
+            "mzda",
+            "plat",
+            "výdělek",
+            "wage",
+            "salary"
+        ],
+        "value": 43967,
+        "unit": "CZK/month",
+        "year": 2023,
+        "source": "ČSÚ"
+    },
+    {
+        "id": "avg_pension",
+        "name": "Průměrný starobní důchod",
+        "keywords": [
+            "důchod",
+            "penze",
+            "pension"
+        ],
+        "value": 20216,
+        "unit": "CZK/month",
+        "year": 2024,
+        "source": "ČSSZ"
+    },
+    {
+        "id": "min_wage",
+        "name": "Minimální mzda",
+        "keywords": [
+            "minimální mzda",
+            "minimum wage"
+        ],
+        "value": 18900,
+        "unit": "CZK/month",
+        "year": 2024,
+        "source": "MPSV"
+    },
+    {
+        "id": "gdp_nominal",
+        "name": "HDP (nominální)",
+        "keywords": [
+            "HDP",
+            "GDP",
+            "produkt"
+        ],
+        "value": 7300000000000,
+        "unit": "CZK",
+        "year": 2023,
+        "source": "ČSÚ"
+    }
+]

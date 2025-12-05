@@ -1,0 +1,120 @@
+{
+  "mode": "analysis",
+  "executive_summary": {
+    "plan_name": "Hospodářství, průmysl a energetika: Státní kontrola a regulace cen",
+    "overview_cs": "Plán se zaměřuje na posílení energetické suverenity a stabilizaci cen pro spotřebitele. Strategické převzetí kontroly nad výrobní částí ČEZ umožňuje přímé řízení investic do klíčových jaderných kapacit (Dukovany 5/6, Temelín 3/4), což je nezbytné pro dlouhodobou stabilitu dodávek. Krátkodobá úleva pro spotřebitele je zajištěna převzetím poplatku POZE a financováním snížení regulované složky, avšak fiskální dopad těchto kroků není kvantifikován, stejně jako náklady na výkup akcií a výstavbu nových jaderných bloků.",
+    "main_benefits": [
+      "Zajištění dlouhodobé energetické stability a nezávislosti prostřednictvím státní kontroly nad klíčovou jadernou infrastrukturou.",
+      "Okamžité snížení nákladů pro domácnosti a podniky převzetím poplatku POZE a odmítnutím rozšíření ETS2."
+    ],
+    "main_risks": [
+      "Nekvantifikovaný a potenciálně masivní fiskální dopad spojený s výkupem akcií ČEZ a financováním výstavby nových jaderných zdrojů.",
+      "Riziko konfliktu s klimatickými cíli EU a ztráta důvěry investorů v důsledku zásahů do tržního prostředí (regulace cen a odmítnutí ETS2)."
+    ],
+    "strategic_verdict_2035": "Navrhované kroky představují zásadní strategickou transformaci energetiky, která je klíčová pro zajištění stability a konkurenceschopnosti země v horizontu roku 2035. Přímá kontrola nad výrobními aktivy a investicemi do jaderné energetiky snižuje závislost na geopolitických rizicích. Realizace plánu je však zatížena extrémně vysokým, v tuto chvíli nekvantifikovaným, fiskálním rizikem a vyžaduje pečlivé řízení vztahů s EU ohledně klimatické politiky.",
+    "recommendations": [
+      "Okamžitě vypracovat detailní finanční model pro výkup akcií ČEZ a výstavbu jaderných bloků, včetně analýzy dopadu na státní dluh.",
+      "Zajistit legislativní a finanční rámec pro využití Modernizačního fondu tak, aby bylo snížení regulované složky ceny elektřiny udržitelné a v souladu s pravidly EU.",
+      "Zahájit intenzivní jednání s Evropskou komisí ohledně alternativních mechanismů pro snižování emisí v sektorech dopravy a bydlení, které by nahradily ETS2, a minimalizovat tak riziko sankcí."
+    ]
+  },
+  "topics": [
+    {
+      "topic_id": "1",
+      "topic_name": "Převzetí kontroly nad ČEZ a jaderná energetika",
+      "current_state_cs": "Současný stav: Česká republika čelí vysoké závislosti na dovozu fosilních paliv a potřebě masivních investic do stabilních, bezemisních zdrojů pro zajištění dlouhodobé energetické bezpečnosti. Jaderná energetika je strategicky klíčová, ale její rozvoj vyžaduje obrovské kapitálové investice a dlouhodobou politickou stabilitu. Bez kvantifikace nelze určit současný podíl státu v ČEZ ani odhadnout náklady na výkup akcií a výstavbu nových bloků Dukovany 5 a 6 a přípravu Temelína 3 a 4. Tato nekvantifikovaná investiční mezera představuje zásadní problém.",
+      "summary_cs": "Získání plné kontroly nad výrobní částí ČEZ je strategicky nezbytné pro řízení energetické transformace a zajištění financování jaderných projektů. Absence finanční analýzy však činí plán vysoce rizikovým z hlediska fiskální udržitelnosti.",
+      "dimensions": [
+        {
+          "dimension": "proveditelnost",
+          "score": 3,
+          "verdict_cs": "Vysoká finanční a legislativní náročnost.",
+          "explanation_cs": "Proveditelnost je vysoká z hlediska politické vůle, ale extrémně náročná z hlediska financování. Výkup akcií vyžaduje masivní jednorázovou alokaci kapitálu, jejíž výše není známa. Realizace jaderných projektů je technicky složitá a časově náročná (desetiletí), což vyžaduje stabilní legislativní prostředí a zajištění dodavatelského řetězce.",
+          "key_risks": [
+            "Neznámé a potenciálně destabilizující náklady na výkup akcií.",
+            "Zpoždění v realizaci jaderných projektů, které by ohrozilo stabilitu sítě po odstavení uhelných zdrojů."
+          ],
+          "key_benefits": [
+            "Zjednodušení rozhodovacích procesů pro strategické investice.",
+            "Zajištění dlouhodobého financování jaderných projektů."
+          ]
+        },
+        {
+          "dimension": "fiskalni_dopad",
+          "score": 1,
+          "verdict_cs": "Masivní, nekvantifikovaný negativní dopad.",
+          "explanation_cs": "Fiskální dopad je kriticky negativní v krátkodobém i střednědobém horizontu. Náklady na výkup akcií a následné investice do jaderných bloků (D5/6, T3/4) budou představovat desítky až stovky miliard korun, což výrazně zatíží státní rozpočet a zvýší státní dluh. Bez konkrétních čísel nelze dopad přesně vyhodnotit, ale riziko fiskální nestability je vysoké.",
+          "key_risks": [
+            "Výrazné zvýšení státního dluhu a zhoršení ratingu.",
+            "Potřeba přesměrování kapitálu z jiných klíčových sektorů (např. vzdělávání, infrastruktura)."
+          ],
+          "key_benefits": [
+            "Potenciální dlouhodobé příjmy ze stabilní výroby elektřiny po roce 2035."
+          ]
+        },
+        {
+          "dimension": "strategie_2035",
+          "score": 5,
+          "verdict_cs": "Klíčový pilíř pro konkurenceschopnost a stabilitu.",
+          "explanation_cs": "Zajištění stabilních a bezemisních zdrojů energie je základním předpokladem pro udržení průmyslové základny a konkurenceschopnosti země po roce 2035. Jaderná energetika poskytuje nezávislost na geopoliticky rizikových dodávkách a umožňuje splnění klimatických cílů bez ohrožení stability sítě. Posílení přenosové sítě je nezbytné pro integraci nových zdrojů.",
+          "key_risks": [
+            "Žádné krátkodobé riziko pro strategii, ale dlouhodobé riziko selhání projektu."
+          ],
+          "key_benefits": [
+            "Energetická soběstačnost a stabilní ceny pro průmysl.",
+            "Zajištění dostatečné kapacity pro elektrifikaci dopravy a průmyslu."
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "2",
+      "topic_name": "Regulace cen energií a emisní povolenky",
+      "current_state_cs": "Současný stav: Vysoké ceny energií a poplatky za obnovitelné zdroje (POZE) představují významnou zátěž pro domácnosti a konkurenceschopnost průmyslu. Převzetí POZE státem a financování snížení regulované složky z Modernizačního fondu je reakcí na tuto zátěž. Bez kvantifikace nelze určit, jak velkou úlevu převzetí POZE přinese spotřebitelům ani jaký objem prostředků bude čerpán z Modernizačního fondu. Odmítnutí ETS2 je reakcí na obavy z dodatečných nákladů na bydlení a dopravu.",
+      "summary_cs": "Regulace cen a odmítnutí ETS2 poskytuje okamžitou sociální a ekonomickou úlevu, ale vyvolává otázky ohledně dlouhodobé fiskální udržitelnosti převzetí POZE a souladu s evropskou klimatickou politikou.",
+      "dimensions": [
+        {
+          "dimension": "ekonomicky_dopad",
+          "score": 4,
+          "verdict_cs": "Pozitivní dopad na konkurenceschopnost a spotřebitelskou poptávku.",
+          "explanation_cs": "Snížení regulované složky ceny elektřiny a převzetí poplatku POZE státem snižuje provozní náklady podniků a zvyšuje disponibilní příjem domácností. Odmítnutí rozšíření ETS2 na dopravu a domácnosti chrání tyto sektory před dodatečnými náklady, což je klíčové pro udržení cenové stability a konkurenceschopnosti v krátkodobém horizontu.",
+          "key_risks": [
+            "Zkreslení tržních signálů v důsledku regulace cen.",
+            "Potenciální snížení motivace k energetickým úsporám u domácností."
+          ],
+          "key_benefits": [
+            "Zvýšení konkurenceschopnosti energeticky náročného průmyslu.",
+            "Ochrana nízkopříjmových skupin před růstem nákladů na bydlení a dopravu."
+          ]
+        },
+        {
+          "dimension": "fiskalni_dopad",
+          "score": 2,
+          "verdict_cs": "Negativní dopad v důsledku převzetí POZE.",
+          "explanation_cs": "Převzetí poplatku POZE státem představuje trvalou zátěž pro státní rozpočet, která musí být kompenzována. Financování snížení regulované složky z Modernizačního fondu je sice jednorázové, ale vyžaduje efektivní čerpání a schválení ze strany EU. Celkově plán zvyšuje mandatorní výdaje státu bez zajištění trvalého zdroje příjmů.",
+          "key_risks": [
+            "Trvalé zatížení rozpočtu náklady na POZE.",
+            "Riziko neefektivního využití Modernizačního fondu pro krátkodobou regulaci."
+          ],
+          "key_benefits": [
+            "Žádné přímé fiskální benefity, pouze přesun nákladů."
+          ]
+        },
+        {
+          "dimension": "transnacionalni_vyznam",
+          "score": 3,
+          "verdict_cs": "Konflikt s EU ohledně ETS2, ale strategická shoda na Modernizačním fondu.",
+          "explanation_cs": "Odmítnutí rozšíření systému ETS2 (na domácnosti a dopravu) je v přímém rozporu s aktuálními klimatickými cíli EU (Fit for 55). To může vést k politickým sporům a potenciálním sankcím, pokud Česká republika nenavrhne adekvátní alternativní mechanismy pro snižování emisí v těchto sektorech. Využití Modernizačního fondu pro snížení cen je naopak v souladu s cíli EU na podporu dekarbonizace.",
+          "key_risks": [
+            "Zhoršení vztahů s EU kvůli odmítnutí ETS2.",
+            "Potřeba obhajovat přehodnocení systému ETS1 na evropské úrovni."
+          ],
+          "key_benefits": [
+            "Využití evropských fondů (Modernizační fond) pro stabilizaci domácího trhu."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

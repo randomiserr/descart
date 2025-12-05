@@ -1,0 +1,149 @@
+{
+  "mode": "analysis",
+  "executive_summary": {
+    "plan_name": "Zavedení školného na VŠ (5000 Kč/semestr)",
+    "overview_cs": "Návrh zavádí školné ve výši 5 000 Kč za semestr (10 000 Kč ročně) na veřejných vysokých školách. Při odhadovaném počtu 270 000 studentů na veřejných VŠ [6][7] by roční fiskální příjem činil přibližně 2.7 mld. Kč (270 000 studentů × 10 000 Kč/rok) [Calculation]. Tato částka je fiskálně pozitivní, ale nedostatečná pro strukturální reformu financování VŠ.",
+    "main_benefits": [
+      "Generování dodatečného ročního příjmu 2.7 mld. Kč pro systém vysokého školství [Calculation]",
+      "Symbolické prolomení tabu bezplatného studia, což otevírá cestu k budoucím, smysluplnějším reformám [2]"
+    ],
+    "main_risks": [
+      "Nízká politická průchodnost a riziko zablokování legislativního procesu, jak se stalo v minulosti [2]",
+      "Navrhovaná částka je příliš nízká, aby efektivně motivovala studenty k rychlejšímu dokončení studia nebo zásadně zvýšila kvalitu VŠ [3]",
+      "Bez robustního systému sociálních stipendií hrozí mírné zhoršení dostupnosti pro sociálně slabší skupiny"
+    ],
+    "strategic_verdict_2035": "Tento návrh představuje spíše symbolický krok k reformě financování vysokého školství, který generuje odhadovaný příjem 2.7 mld. Kč ročně, ale postrádá skutečný transformační potenciál. Politická průchodnost je nízká a navrhovaná částka je příliš malá na to, aby efektivně motivovala studenty k rychlejšímu studiu nebo zásadně zvýšila konkurenceschopnost a kvalitu veřejných vysokých škol.",
+    "recommendations": [
+      "Zvýšit navrhovanou částku školného na úroveň, která by pokryla alespoň 10–15 % průměrných nákladů na studenta, a zavést diferenciaci podle oboru (nákladnosti studia).",
+      "Implementovat robustní systém odloženého školného (studentské půjčky vázané na příjem po ukončení studia) a sociálních stipendií, aby byla zachována dostupnost vzdělání.",
+      "Příjmy ze školného alokovat přímo na VŠ s povinností investovat je do zvýšení kvality výuky, modernizace infrastruktury a posílení vazby na výzkum a průmysl."
+    ]
+  },
+  "topics": [
+    {
+      "topic_id": "1",
+      "topic_name": "Školné na VŠ",
+      "current_state_cs": "Současný stav: Veřejné vysoké školy v České republice neúčtují školné za standardní délku studia, což je dlouhodobě politicky citlivé téma [1][2]. Financování VŠ je primárně závislé na státním rozpočtu. Na konci roku 2022 studovalo na vysokých školách celkem 304,5 tisíce osob [8], přičemž většina (cca 270 tisíc) navštěvovala veřejné vysoké školy [6][7]. Absence přímé finanční spoluúčasti studentů snižuje tlak na efektivitu studia a neposkytuje VŠ dostatečné dodatečné zdroje pro zvýšení kvality a mezinárodní konkurenceschopnosti.",
+      "summary_cs": "Zavedení školného ve výši 5 000 Kč za semestr je fiskálně pozitivní, ale strategicky nedostatečné. Částka je příliš nízká na to, aby fungovala jako efektivní motivační nástroj pro studenty nebo jako významný zdroj financování pro VŠ. Hlavním rizikem je politická neprůchodnost, která by mohla zablokovat i budoucí, smysluplnější reformy [2].",
+      "dimensions": [
+        {
+          "dimension": "proveditelnost",
+          "score": 4,
+          "verdict_cs": "Nízká politická průchodnost",
+          "explanation_cs": "Zavedení školného vyžaduje novelu Zákona o vysokých školách. Přestože je navrhovaná částka nízká, téma školného je v ČR dlouhodobě politicky toxické a v minulosti vedlo k odkládání reforem [2]. Technická proveditelnost je vysoká, ale politické riziko legislativního zablokování je značné.",
+          "key_risks": [
+            "Vysoká politická opozice a riziko zablokování legislativy [2]",
+            "Dlouhá implementační doba kvůli nutnosti úpravy zákona a zřízení administrativních procesů"
+          ],
+          "key_benefits": [
+            "Technicky jednoduché zavedení poplatku"
+          ]
+        },
+        {
+          "dimension": "ekonomicky_dopad",
+          "score": 6,
+          "verdict_cs": "Mírně pozitivní, ale bez strukturálního efektu",
+          "explanation_cs": "Ekonomický dopad je pozitivní z hlediska příjmu (2.7 mld. Kč ročně), ale je příliš malý na to, aby zásadně ovlivnil financování VŠ, které ročně spotřebovávají desítky miliard korun. Školné 10 000 Kč/rok nepředstavuje dostatečný ekonomický signál pro studenty, aby zkrátili průměrnou délku studia, a tím uvolnili zdroje a zvýšili produktivitu práce absolventů.",
+          "key_risks": [
+            "Nízká částka neřeší strukturální neefektivitu ve studiu",
+            "Může vést k iluzi reformy, aniž by došlo k reálnému posílení konkurenceschopnosti VŠ"
+          ],
+          "key_benefits": [
+            "Dodatečný příjem 2.7 mld. Kč, který může být použit na investice do kvality VŠ"
+          ]
+        },
+        {
+          "dimension": "fiskalni_dopad",
+          "score": 7,
+          "verdict_cs": "Pozitivní, ale marginální příspěvek",
+          "explanation_cs": "Přímý fiskální dopad je pozitivní. Roční příjem 2.7 mld. Kč (270 000 studentů × 10 000 Kč) [Calculation] představuje stabilní, byť malý, zdroj příjmů pro státní rozpočet nebo rozpočty VŠ. Tato částka by mohla mírně snížit závislost VŠ na přímých dotacích ze státního rozpočtu.",
+          "key_risks": [
+            "Administrativní náklady na výběr a správu školného mohou snížit čistý příjem"
+          ],
+          "key_benefits": [
+            "Stabilní roční příjem 2.7 mld. Kč"
+          ]
+        },
+        {
+          "dimension": "socialni_dopad",
+          "score": 5,
+          "verdict_cs": "Neutrální, riziko pro nejchudší bez stipendií",
+          "explanation_cs": "Školné 10 000 Kč ročně je relativně nízké a nemělo by zásadně omezit přístup ke vzdělání pro většinu populace. Nicméně, pro nejchudší studenty, kteří již nyní čelí vysokým životním nákladům, může i tato částka představovat bariéru, pokud nebude zaveden kompenzační systém sociálních stipendií.",
+          "key_risks": [
+            "Potenciální mírné zhoršení dostupnosti pro sociálně nejslabší skupiny bez kompenzačních mechanismů"
+          ],
+          "key_benefits": [
+            "Nízká částka minimalizuje riziko odrazení studentů od studia"
+          ]
+        },
+        {
+          "dimension": "transnacionalni_vyznam",
+          "score": 3,
+          "verdict_cs": "Zanedbatelný",
+          "explanation_cs": "Školné 10 000 Kč/rok (cca 400 EUR) je hluboko pod úrovní, která by byla relevantní pro mezinárodní srovnání nebo pro zvýšení konkurenceschopnosti VŠ. Nejde o nástroj, který by pomohl VŠ přiblížit se standardům financování v západní Evropě nebo USA.",
+          "key_risks": [
+            "Žádný vliv na mezinárodní ranking VŠ"
+          ],
+          "key_benefits": [
+            "Žádné významné transnacionální benefity"
+          ]
+        },
+        {
+          "dimension": "strategie_2035",
+          "score": 5,
+          "verdict_cs": "Neutrální, chybí strategická hloubka",
+          "explanation_cs": "Plán nepřispívá k hlavním strategickým cílům pro rok 2035, kterými jsou zvýšení kvality absolventů, zkrácení průměrné doby studia a posílení vazby VŠ na inovace a trh práce. Jde o fiskální opatření, nikoli o reformu kvality. Pro dosažení konkurenceschopnosti je nutné školné navázat na výkon a kvalitu VŠ.",
+          "key_risks": [
+            "Odvádí pozornost od nutnosti komplexní reformy financování VŠ",
+            "Nezvyšuje kvalitu výzkumu ani výuky"
+          ],
+          "key_benefits": [
+            "Otevírá politickou debatu o nutnosti spoluúčasti studentů"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "1",
+      "name": "msmt-542/2023-5 žádost o poskytnutí informace dle ...",
+      "url": "https://www.msmt.cz/ministerstvo/msmt-542-2023-5-zadost-o-poskytnuti-informace-dle-zakona-c"
+    },
+    {
+      "id": "2",
+      "name": "Školné: Kdo je pro a kdo proti",
+      "url": "https://www.msmt.cz/reforma-terciarniho-vzdelavani/bila-kniha/skolne-kdo-je-pro-a-kdo-proti"
+    },
+    {
+      "id": "3",
+      "name": "Školné ve střední Evropě",
+      "url": "https://www.msmt.cz/reforma-terciarniho-vzdelavani/bila-kniha/skolne-ve-stredni-evrope"
+    },
+    {
+      "id": "4",
+      "name": "Radek Urban o změnách ve stavebním spoření",
+      "url": "https://www.mfcr.cz/cs/ministerstvo/media/v-mediich/2012/2012-03-06-vmediich-4003-4003"
+    },
+    {
+      "id": "5",
+      "name": "Konvergenční program ČR (duben 2012)",
+      "url": "https://www.mfcr.cz/assets/attachments/Analyza_2012-04_Konvergencni-program.pdf"
+    },
+    {
+      "id": "6",
+      "name": "Analytická část",
+      "url": "https://www.czso.cz/documents/10180/61508174/23004218a.docx/ba6a29a4-c44c-4ed1-9c5a-0d706afb1151?redirect=https%3A%2F%2Fwww.czso.cz%2Fcsu%2Fczso%2Fcri%2Fsetreni-prumernych-cen-vybranych-vyrobku-pohonne-hmoty-a-topne-oleje-19-kalendarni-tyden-2016%3Fp_p_id%3D3%26p_p_lifecycle%3D0%26p_p_state%3Dmaximized%26_3_advancedSearch%3Dfalse%26_3_groupId%3D0%26_3_keywords%3D%25C5%25A0et%25C5%2599en%25C3%25AD%2520pr%25C5%25AFm%25C4%259Brn%25C3%25BDch%2Bcen%2Bvybran%25C3%25BDch%2Bv%25C3%25BDrobk%25C5%25AF%2520-%2Bpohonn%25C3%25A9%2520hmoty%2Ba%2Btopn%25C3%25A9%2520oleje%26_3_delta%3D20%26_3_resetCur%3Dfalse%26_3_cur%3D10633%26_3_struts_action%3D%252Fsearch%252Fsearch%26_3_format%3D%26_3_andOperator%3Dtrue"
+    },
+    {
+      "id": "7",
+      "name": "Vysoké školy v Česku studuje cca 300 tisíc studentů, ...",
+      "url": "https://www.czso.cz/csu/czso/vysoke-skoly-v-cesku-studuje-cca-300-tisic-studentu-klesa-zajem-o-techniku-v-kurzu-je-zdravotnictvi"
+    },
+    {
+      "id": "8",
+      "name": "Od roku 2012 klesá počet absolventů vysokých škol",
+      "url": "https://www.czso.cz/csu/czso/od-roku-2012-klesa-pocet-absolventu-vysokych-skol"
+    }
+  ]
+}

@@ -49,3 +49,14 @@ frontend/.env.production.local
 !data/codelists/items.json
 !data/macro_real.json
 !data/laws_extracted.json
+
+# Test files and debug scripts
+test_*.py
+test_*.json
+test_*.txt
+debug_*.py
+quick_test.*
+reproduce_*.py
+*_output.txt
+api_log.txt
+api_test_result.json
