@@ -1,0 +1,153 @@
+{
+  "mode": "analysis",
+  "executive_summary": {
+    "plan_name": "Zvýšení platu učitelů o 15 %",
+    "overview_cs": "Návrh na zvýšení platů učitelů o 15 % je přímou investicí do lidského kapitálu, která navazuje na historické snahy o stabilizaci školství (např. zvýšení o 15 % v roce 2018 a 9 % v roce 2021) [4][5]. Ačkoliv přesná aktuální fiskální zátěž není kvantifikovatelná z dostupných dat, na základě minulých precedentů se jedná o mandatorní výdaj v řádu desítek miliard korun ročně, který má okamžitý negativní dopad na státní rozpočet [4].",
+    "main_benefits": [
+      "Zvýšení konkurenceschopnosti učitelské profese a snížení odlivu kvalitních pedagogů do jiných sektorů [1].",
+      "Zlepšení sociálního statusu profese, což je klíčové pro dlouhodobou kvalitu vzdělávacího systému [1]."
+    ],
+    "main_risks": [
+      "Vytvoření trvalého a významného fiskálního břemene, které bez doprovodných úspor nebo daňových reforem prohloubí strukturální deficit [4].",
+      "Riziko inflačních tlaků v sektoru veřejných služeb, pokud zvýšení není doprovázeno reformou výkonnostních standardů."
+    ],
+    "strategic_verdict_2035": "Návrh představuje nezbytný strategický krok k posílení lidského kapitálu a konkurenceschopnosti ekonomiky, což je klíčové pro přechod k ekonomice s vyšší přidanou hodnotou. Přímé navýšení platů je však fiskálně náročné a bez vazby na reformu kurikula a výkonnostní kritéria hrozí, že se jedná pouze o nákladnou sociální transferovou politiku bez maximalizace strategického přínosu.",
+    "recommendations": [
+      "Podmínit plné navýšení platů o 15 % zavedením měřitelných výkonnostních kritérií (MBO) pro školy a pedagogy.",
+      "Zajistit financování tohoto mandatorního výdaje prostřednictvím cílených úspor v jiných kapitolách státního rozpočtu, nikoli pouze zvýšením dluhu.",
+      "Provázat mzdovou reformu s reformou pregraduální přípravy učitelů a zavedením kariérního řádu, aby se zajistila dlouhodobá kvalita pedagogického sboru."
+    ]
+  },
+  "topics": [
+    {
+      "topic_id": "1",
+      "topic_name": "Platy učitelů",
+      "current_state_cs": "Současný stav: Nedostatečná kompenzace učitelů je dlouhodobý strukturální problém, který vlády řeší opakovanými, skokovými navýšeními. Makroekonomické prognózy Ministerstva financí opakovaně potvrzují nutnost zvyšování platových tarifů, například o 15 % v roce 2018 a 9 % v roce 2021 [4][5]. Tato opakovaná potřeba velkých navýšení signalizuje, že platy učitelů dlouhodobě zaostávají za průměrem VŠ vzdělaných pracovníků, což snižuje atraktivitu profese a vede k odlivu kvalifikovaných pracovníků [1].",
+      "summary_cs": "Zvýšení platů o 15 % je nezbytné pro stabilizaci a zvýšení kvality vzdělávacího systému. Je to přímý nástroj pro zlepšení konkurenceschopnosti profese a je snadno proveditelný. Hlavní riziko spočívá v trvalém fiskálním dopadu, který není kompenzován strukturálními reformami ve školství [4].",
+      "dimensions": [
+        {
+          "dimension": "proveditelnost",
+          "score": 9,
+          "verdict_cs": "Vysoká proveditelnost.",
+          "explanation_cs": "Jedná se o přímé administrativní rozhodnutí o úpravě platových tarifů, které bylo v minulosti opakovaně realizováno [4][5]. Nevyžaduje složité legislativní změny mimo schválení rozpočtu.",
+          "key_risks": [
+            "Zpoždění implementace kvůli rozpočtovým jednáním."
+          ],
+          "key_benefits": [
+            "Rychlý a přímý dopad na cílovou skupinu."
+          ]
+        },
+        {
+          "dimension": "ekonomicky_dopad",
+          "score": 7,
+          "verdict_cs": "Pozitivní dopad na lidský kapitál, ale krátkodobě inflační.",
+          "explanation_cs": "Dlouhodobě je investice do kvalitního vzdělávání klíčová pro zvýšení produktivity a přechod k ekonomice s vyšší přidanou hodnotou. Krátkodobě však 15% navýšení představuje významný injekci poptávky do ekonomiky, která může přispět k mzdově-inflačním tlakům, zejména v regionálních centrech [5].",
+          "key_risks": [
+            "Zvýšení mzdových nákladů bez přímého měřitelného zvýšení kvality výuky."
+          ],
+          "key_benefits": [
+            "Zlepšení kvality lidského kapitálu v horizontu 5–10 let.",
+            "Snížení regionálních mzdových disparit v rámci veřejného sektoru."
+          ]
+        },
+        {
+          "dimension": "fiskalni_dopad",
+          "score": 3,
+          "verdict_cs": "Výrazně negativní a trvalý dopad.",
+          "explanation_cs": "Navýšení platů o 15 % představuje trvalé zvýšení mandatorních výdajů státního rozpočtu. Na základě historických dat o podobných navýšeních [4] se jedná o náklad v řádu desítek miliard korun ročně. Bez jasného zdroje financování (např. daňová reforma nebo škrty) dojde k prohloubení strukturálního deficitu.",
+          "key_risks": [
+            "Trvalé zvýšení rozpočtového schodku.",
+            "Tlak na podobné mzdové úpravy v jiných částech veřejného sektoru (tzv. 'domino efekt') [4]."
+          ],
+          "key_benefits": [
+            "Žádné přímé fiskální benefity, pouze nepřímé (vyšší daňové odvody z vyšších mezd)."
+          ]
+        },
+        {
+          "dimension": "socialni_dopad",
+          "score": 9,
+          "verdict_cs": "Velmi pozitivní dopad na profesní status a stabilitu.",
+          "explanation_cs": "Zvýšení platů o 15 % je silný signál o společenské prioritě vzdělávání. Pomáhá stabilizovat učitelské sbory, snižuje fluktuaci a zlepšuje sociální postavení profese, což je klíčové pro přilákání mladých talentů [1].",
+          "key_risks": [
+            "Pokud není navýšení plošné, může dojít k vnitřní nespokojenosti mezi různými kategoriemi pedagogů (např. učitelé vs. nepedagogičtí pracovníci) [5]."
+          ],
+          "key_benefits": [
+            "Zlepšení motivace a snížení syndromu vyhoření u stávajících učitelů.",
+            "Zvýšení zájmu o studium pedagogických oborů."
+          ]
+        },
+        {
+          "dimension": "transnacionalni_vyznam",
+          "score": 8,
+          "verdict_cs": "Posílení mezinárodní konkurenceschopnosti.",
+          "explanation_cs": "Zvýšení platů pomáhá České republice přiblížit se průměru OECD v kompenzaci učitelů, což je důležité pro mezinárodní srovnání kvality vzdělávacího systému a pro udržení mezinárodně srovnatelné kvality pedagogického sboru [1].",
+          "key_risks": [
+            "Pokud ostatní země EU budou zvyšovat platy rychleji, relativní pozice se nezlepší."
+          ],
+          "key_benefits": [
+            "Zlepšení mezinárodního hodnocení vzdělávacího systému."
+          ]
+        },
+        {
+          "dimension": "strategie_2035",
+          "score": 8,
+          "verdict_cs": "Klíčový strategický pilíř.",
+          "explanation_cs": "Kvalitní vzdělávání je základním předpokladem pro transformaci ekonomiky směrem k inovacím a vysoké přidané hodnotě. Tato investice přímo podporuje cíl rozvoje lidského kapitálu a zvyšování konkurenceschopnosti, což je v souladu s dlouhodobými strategickými cíli [2].",
+          "key_risks": [
+            "Absence reformy obsahu vzdělávání snižuje návratnost této investice."
+          ],
+          "key_benefits": [
+            "Přímá podpora pilíře znalostní ekonomiky."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "1",
+      "name": "education - Centro de Estudios del Mineduc",
+      "url": "https://www.msmt.cz/file/43436_1_1/"
+    },
+    {
+      "id": "2",
+      "name": "State Supported R&D in the Czech Republic",
+      "url": "https://www.msmt.cz/uploads/K2/Brochure_research_AND_development.pdf"
+    },
+    {
+      "id": "3",
+      "name": "The Evaluation of Systemic and Conceptual ... - OP VVV - MŠMT",
+      "url": "https://opvvv.msmt.cz/download/file5334.pdf"
+    },
+    {
+      "id": "4",
+      "name": "Macroeconomic Forecast of the Czech Republic (November 2017)",
+      "url": "https://www.mfcr.cz/assets/attachments/Macroeconomic-Forecast-November-2017.pdf"
+    },
+    {
+      "id": "5",
+      "name": "Macroeconomic Forecast of the Czech Republic (January 2021)",
+      "url": "https://www.mfcr.cz/assets/attachments/Macroeconomic-Forecast-January-2021.pdf"
+    },
+    {
+      "id": "6",
+      "name": "Fiscal-Outlook-of-the-Czech-Republic-2010- ...",
+      "url": "https://www.mfcr.cz/assets/attachments/Fiscal-Outlook-of-the-Czech-Republic-2010-10.doc"
+    },
+    {
+      "id": "7",
+      "name": "Average wages and registered number of employees",
+      "url": "https://www.czso.cz/csu/czso/2-pmz_m"
+    },
+    {
+      "id": "8",
+      "name": "Focus on Women and Men",
+      "url": "https://www.czso.cz/csu/czso/1413-05-2005-4____labour_and_earnings"
+    },
+    {
+      "id": "9",
+      "name": "Foreigners in the Czech Republic",
+      "url": "https://www.czso.cz/csu/czso/1414-06-2006-3_____economic_activity_of_foreigners"
+    }
+  ]
+}
